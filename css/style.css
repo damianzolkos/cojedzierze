@@ -54,6 +54,10 @@ header {
 #adder li {
     padding: 5px;
 }
+#adder li {
+    line-height: 30px;
+    height: 30px;
+}
 #adder li:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.04);
@@ -144,5 +148,9 @@ footer a:link, a:visited {
     }
     #adder ul {
         min-width: 90%;
+    }
+    #adder li {
+        line-height: 40px;
+        height: 40px;
     }
 }

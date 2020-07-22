@@ -144,7 +144,7 @@ window.addEventListener('scroll', function () {
 });
 
 document.getElementById("newStopID").addEventListener("focusout", function () {
-    // document.getElementById('search').innerHTML = "";
+    // document.getElementById('search').style.display = "none";
     // document.getElementById("newStopID").value = "";
 });
 
@@ -178,7 +178,9 @@ function addStop(id) {
                 localStorage.setItem('stops', JSON.stringify(savedStops));
 
                 document.getElementById("zeroStops").style.display = "none";
-                // document.getElementById("newStopID").value = "";
+                document.getElementById("newStopID").value = "";
+                document.getElementById('search').innerHTML = "";
+                
             } else alert("Ten przystanek już istnieje");
         } else alert("Podaj liczbę");
     } else {
