@@ -1,7 +1,5 @@
 const proxyUrl = "https://infinite-springs-66524.herokuapp.com/";
-// const proxyUrl = "";
 const mpkUrl = "http://einfo.erzeszow.pl/Home/GetTimeTableReal?busStopId=";
-
 
 var latin_map = {
     'ą': 'a',
@@ -222,11 +220,9 @@ function addStop(id) {
 }
 
 function removeStop(id) {
-    // console.log(id);
     document.getElementById("content_" + id).remove();
     var index = savedStops.indexOf(id);
     savedStops.splice(index, 1);
-    // console.log(savedStops);
     localStorage.setItem('stops', JSON.stringify(savedStops));
     if (savedStops == 0) {
         document.getElementById("zeroStops").style.display = "block";
@@ -239,12 +235,8 @@ async function fetchAllStops() {
 }
 
 function searchStop(search) {
-    // console.log(allStops);
     let found = filterIt(allStops, search);
-    // console.log(found);
-    // console.log(search);
     let newSearch = String(search);
-    // console.log(newSearch.latinise());
     let txt = ``;
     found.forEach(element => {
         txt += `<li onclick='addStop(` + element.id + `)'>` + element.name + `</li>`;
@@ -254,7 +246,6 @@ function searchStop(search) {
 
 function filterIt(arr, searchKey) {
     return arr.filter(function (obj) {
-        // console.log(Object.keys(obj));
         return Object.keys(obj).some(function (key) {
             let upperSearch = searchKey.toUpperCase();
             let stringSearch = String(upperSearch);
