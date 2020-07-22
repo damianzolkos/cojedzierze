@@ -1,0 +1,117 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a:link, a:visited {
+    color: #111;
+    text-decoration: underline;
+}
+a:hover {
+    color: #111;
+    text-decoration: none;
+    background-color: #ffc300;
+}
+header {
+    padding: 20px 0px 30px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 60%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    color: #1f8fbe;
+}
+#zeroStops {
+    text-align: center;
+}
+.deleteStop {
+    float: right;
+    margin-top: 10px;
+}
+#adder {
+    padding: 20px 0px 30px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 60%;
+}
+#adder input {
+    width: 100px;
+}
+footer {
+    font-size: 10pt;
+    padding: 20px 0px 30px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 60%;
+}
+footer a{
+    padding: 10px;
+}
+footer a:link, a:visited {
+    color: #111;
+    text-decoration: none;
+}
+#wrapper {
+    margin: 0 auto;
+    max-width: 60%;
+}
+@media screen and (max-width: 800px) {
+    #wrapper {
+        max-width: 90%;
+    }
+}
+.remove {
+    font-family: Roboto;
+    color: #111;
+    font-size: 12pt;
+}
+.content {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.busStopName {
+    font-family: 'Oswald', sans-serif;
+    color: #1f8fbe;
+    font-weight: 500;
+    font-size: 20pt;
+    text-align: left;
+    padding: 10px;
+    margin: 0px 0px 15px 0px;
+}
+
+.container {
+    font-size: 14pt;
+    display: grid;
+    grid-template-columns: 40px auto 20px 90px;
+    column-gap: 10px;
+    row-gap: 0px;
+}
+
+.busNr {
+    font-weight: 700;
+    grid-column: 1;
+    text-align: right;
+}
+
+.busDir {
+    padding-left: 10px;
+    grid-column: 2;
+}
+
+.busVeh {
+    font-weight: 300;
+    grid-column: 3;
+    text-align: right;
+}
+
+.busTime {
+    grid-column: 4;
+    text-align: right;
+    padding-right: 10px;
+}
+.border {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.25);
+}
