@@ -56,11 +56,6 @@ footer a:link, a:visited {
     margin: 0 auto;
     max-width: 60%;
 }
-@media screen and (max-width: 800px) {
-    #wrapper {
-        max-width: 90%;
-    }
-}
 .remove {
     font-family: Roboto;
     color: #111;
@@ -114,4 +109,14 @@ footer a:link, a:visited {
     padding-bottom: 5px;
     padding-top: 5px;
     border-bottom: 1px solid rgba(153, 153, 153, 0.25);
+}
+
+@media screen and (max-width: 800px) {
+    #wrapper {
+        max-width: 90%;
+    }
+    header {
+        max-width: 90%;
+        font-size: 20pt;
+    }
 }

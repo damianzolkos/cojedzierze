@@ -132,22 +132,24 @@ function removeStop(id) {
 
 // EVENT LISTENERS
 document.getElementById("addNewStop").addEventListener("click", function () {
-    let id = document.getElementById("newStopID").value;
+    let id = parseInt(document.getElementById("newStopID").value);
     if (id !== "") {
-        if (!savedStops.includes(id)) {
-            let busstop = parseData(id);
-            busstop.then(function (result) {
-                // console.log(result);
-                printData(result);
-            });
-            // console.log("savedStops:", savedStops);
-            // console.log(id);
-            savedStops.push(id);
-            localStorage.setItem('stops', JSON.stringify(savedStops));
+        if (Number.isInteger(id)) {
+            if (!savedStops.includes(id)) {
+                let busstop = parseData(id);
+                busstop.then(function (result) {
+                    // console.log(result);
+                    printData(result);
+                });
+                // console.log("savedStops:", savedStops);
+                // console.log(id);
+                savedStops.push(id);
+                localStorage.setItem('stops', JSON.stringify(savedStops));
 
-            document.getElementById("zeroStops").style.display = "none";
-            document.getElementById("newStopID").value = "";
-        } else alert("Ten przystanek już istnieje");
+                document.getElementById("zeroStops").style.display = "none";
+                document.getElementById("newStopID").value = "";
+            } else alert("Ten przystanek już istnieje");
+        } else alert("Podaj liczbę");
     } else {
         alert("Podaj ID przystanku");
     }
