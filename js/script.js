@@ -1,4 +1,5 @@
 const proxyUrl = "https://infinite-springs-66524.herokuapp.com/";
+// const proxyUrl = "";
 const mpkUrl = "http://einfo.erzeszow.pl/Home/GetTimeTableReal?busStopId=";
 
 async function getBusStopXML(busStopId) {
@@ -14,6 +15,24 @@ async function getBusStopXML(busStopId) {
                     return response.status;
                 }
                 return response.text();
+            }
+        )
+        .catch(function (err) {
+            console.log('Fetch Error ', err);
+        });
+    return data;
+}
+
+async function getData(url) {
+    const data = await fetch(url)
+        .then(
+            function (response) {
+                if (response.status !== 200) {
+                    console.log('There was a problem. Status Code: ' +
+                        response.status);
+                    return response.status;
+                }
+                return response.json();
             }
         )
         .catch(function (err) {
@@ -118,21 +137,33 @@ function printData(parsedData) {
     document.getElementById("busLines_" + parsedData.id).innerHTML = txt;
 }
 
-function removeStop(id) {
-    // console.log(id);
-    document.getElementById("content_" + id).remove();
-    var index = savedStops.indexOf(id);
-    savedStops.splice(index, 1);
-    // console.log(savedStops);
-    localStorage.setItem('stops', JSON.stringify(savedStops));
-    if (savedStops == 0) {
-        document.getElementById("zeroStops").style.display = "block";
-    }
-}
-
 // EVENT LISTENERS
-document.getElementById("addNewStop").addEventListener("click", function () {
-    let id = parseInt(document.getElementById("newStopID").value);
+window.addEventListener('scroll', function () {
+    document.getElementById('search').style.display = 'none';
+    // document.getElementById("newStopID").value = "";
+});
+
+document.getElementById("newStopID").addEventListener("focusout", function () {
+    // document.getElementById('search').innerHTML = "";
+    // document.getElementById("newStopID").value = "";
+});
+
+document.getElementById("newStopID").addEventListener("mouseover", function () {
+    // document.getElementById('search').innerHTML = "";
+    document.getElementById('search').style.display = 'block';
+    // document.getElementById("newStopID").value = "";
+});
+
+document.getElementById("newStopID").addEventListener("keyup", function () {
+    let name = document.getElementById("newStopID").value;
+    if (name != "") {
+        searchStop(name);
+    } else {
+        document.getElementById('search').innerHTML = "";
+    }
+});
+
+function addStop(id) {
     if (id !== "") {
         if (Number.isInteger(id)) {
             if (!savedStops.includes(id)) {
@@ -147,10 +178,88 @@ document.getElementById("addNewStop").addEventListener("click", function () {
                 localStorage.setItem('stops', JSON.stringify(savedStops));
 
                 document.getElementById("zeroStops").style.display = "none";
-                document.getElementById("newStopID").value = "";
+                // document.getElementById("newStopID").value = "";
             } else alert("Ten przystanek już istnieje");
         } else alert("Podaj liczbę");
     } else {
         alert("Podaj ID przystanku");
     }
-});
+}
+
+function removeStop(id) {
+    // console.log(id);
+    document.getElementById("content_" + id).remove();
+    var index = savedStops.indexOf(id);
+    savedStops.splice(index, 1);
+    // console.log(savedStops);
+    localStorage.setItem('stops', JSON.stringify(savedStops));
+    if (savedStops == 0) {
+        document.getElementById("zeroStops").style.display = "block";
+    }
+}
+
+var allStops = new Array;
+async function fetchAllStops() {
+    allStops = await getData('./allStopsArr.json')
+}
+
+function searchStop(search) {
+    // console.log(allStops);
+    let found = filterIt(allStops, search);
+    // console.log(found);
+    let txt = ``;
+    found.forEach(element => {
+        txt += `<li onclick='addStop(` + element.id + `)'>` + element.name + `</li>`;
+    });
+    document.getElementById('search').innerHTML = txt;
+}
+
+function filterIt(arr, searchKey) {
+    return arr.filter(function (obj) {
+        return Object.keys(obj).some(function (key) {
+            return obj[key].includes(searchKey.toUpperCase());
+        })
+    });
+}
+
+// function sleep(milliseconds) {
+//     const date = Date.now();
+//     let currentDate = null;
+//     do {
+//         currentDate = Date.now();
+//     } while (currentDate - date < milliseconds);
+// }
+
+// const convertArrayToObject = (array, key) => {
+//     const initialValue = {};
+//     return array.reduce((obj, item) => {
+//         return {
+//             ...obj,
+//             [item[key]]: item,
+//         };
+//     }, initialValue);
+// };
+
+// var allStops = new Array;
+
+// function getAllStops() {
+//     console.log("getAllStops");
+//     for (let index = 0; index < 2000; index++) {
+//         let newStop = new Object;
+//         console.log(index);
+//         let busstop = parseData(index);
+//         sleep(10);
+//         busstop.then(function (result) {
+//             if (result.name != undefined) {
+//                 console.log(result.name);
+//                 console.log(result.id);
+//                 newStop.id = result.id;
+//                 newStop.name = result.name.toUpperCase();
+//                 allStops.push(newStop)
+//             }
+//         });
+//     }
+//     var allStopsObject = convertArrayToObject(allStops, 'id');
+//     console.log("allStops:", allStops);
+//     console.log("allStopsObject:", allStopsObject);
+// }

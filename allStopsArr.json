@@ -1,0 +1,4462 @@
+[{
+	"id": "1",
+	"name": "TREMBECKIEGO ZTM PĘTLA 01"
+}, {
+	"id": "2",
+	"name": "TREMBECKIEGO ZTM 05"
+}, {
+	"id": "3",
+	"name": "TREMBECKIEGO / SIEMIEŃSKIEGO 04"
+}, {
+	"id": "4",
+	"name": "TREMBECKIEGO / SIEMIEŃSKIEGO 07"
+}, {
+	"id": "5",
+	"name": "SIEMIEŃSKIEGO U. SKARBOWY 03"
+}, {
+	"id": "6",
+	"name": "SIEMIEŃSKIEGO U. SKARBOWY 02"
+}, {
+	"id": "7",
+	"name": "SIEMIEŃSKIEGO DOM STUDENTA 01"
+}, {
+	"id": "8",
+	"name": "ŻÓŁKIEWSKIEGO / CHOCIMSKA 01"
+}, {
+	"id": "9",
+	"name": "ŻÓŁKIEWSKIEGO / KOCHANOWSKIEGO 01"
+}, {
+	"id": "10",
+	"name": "BARDOWSKIEGO 04"
+}, {
+	"id": "11",
+	"name": "DWORZEC GŁÓWNY PKP 04"
+}, {
+	"id": "12",
+	"name": "DWORZEC GŁÓWNY PKP 03"
+}, {
+	"id": "13",
+	"name": "PL. KILIŃSKIEGO 01"
+}, {
+	"id": "14",
+	"name": "PL. WOLNOŚCI GALERIA 04"
+}, {
+	"id": "15",
+	"name": "PL. WOLNOŚCI 01"
+}, {
+	"id": "16",
+	"name": "PIŁSUDSKIEGO AMERYKA 06"
+}, {
+	"id": "17",
+	"name": "PIŁSUDSKIEGO U. WOJEWÓDZKI 03"
+}, {
+	"id": "18",
+	"name": "MARSZAŁKOWSKA SZKOŁA 02"
+}, {
+	"id": "19",
+	"name": "MARSZAŁKOWSKA OSIEDLE 01"
+}, {
+	"id": "20",
+	"name": "LUBELSKA SZPITAL 02"
+}, {
+	"id": "21",
+	"name": "LUBELSKA LECZNICA 01"
+}, {
+	"id": "22",
+	"name": "LUBELSKA KOŚCIÓŁ 06"
+}, {
+	"id": "23",
+	"name": "LUBELSKA KOŚCIÓŁ 05"
+}, {
+	"id": "24",
+	"name": "WYZWOLENIA / LUBELSKA 02"
+}, {
+	"id": "25",
+	"name": "WYZWOLENIA WORD 04"
+}, {
+	"id": "26",
+	"name": "WYZWOLENIA / WARSZAWSKA 01"
+}, {
+	"id": "27",
+	"name": "WARSZAWSKA ZS. SPOŻ. 02"
+}, {
+	"id": "28",
+	"name": "WARSZAWSKA ZS. SPOŻ. 01"
+}, {
+	"id": "29",
+	"name": "WARSZAWSKA ZS. SAMOCH. 04"
+}, {
+	"id": "30",
+	"name": "WARSZAWSKA ZS. SAMOCH. 03"
+}, {
+	"id": "31",
+	"name": "WARSZAWSKA / STAROMIEJSKA 06"
+}, {
+	"id": "32",
+	"name": "WARSZAWSKA / STAROMIEJSKA 05"
+}, {
+	"id": "33",
+	"name": "STAROMIEJSKA SZKOŁA 06"
+}, {
+	"id": "34",
+	"name": "STAROMIEJSKA / LUBICZ 05"
+}, {
+	"id": "35",
+	"name": "STAROMIEJSKA DOM KULTURY 04"
+}, {
+	"id": "36",
+	"name": "STAROMIEJSKA DOM KULTURY 03"
+}, {
+	"id": "37",
+	"name": "STAROMIEJSKA / LUBELSKA 02"
+}, {
+	"id": "38",
+	"name": "STAROMIEJSKA / LUBELSKA 01"
+}, {
+	"id": "39",
+	"name": "TREMBECKIEGO ZTM 02"
+}, {
+	"id": "40",
+	"name": "GŁOWACKIEGO ZUS 01"
+}, {
+	"id": "41",
+	"name": "TARGOWA CMENTARZ 02"
+}, {
+	"id": "42",
+	"name": "TARGOWA 01"
+}, {
+	"id": "43",
+	"name": "PIŁSUDSKIEGO ZDZ 02"
+}, {
+	"id": "44",
+	"name": "SZOPENA FILHARMONIA 02"
+}, {
+	"id": "45",
+	"name": "SZOPENA FILHARMONIA 01"
+}, {
+	"id": "46",
+	"name": "CIEPLIŃSKIEGO 01"
+}, {
+	"id": "47",
+	"name": "CIEPLIŃSKIEGO PARK 02"
+}, {
+	"id": "48",
+	"name": "PIŁSUDSKIEGO U. MARSZAŁKOWSKI 08"
+}, {
+	"id": "49",
+	"name": "KRAKOWSKA OSIEDLE 02"
+}, {
+	"id": "50",
+	"name": "KRAKOWSKA / SPORTOWA 01"
+}, {
+	"id": "51",
+	"name": "WITOSA JEDN. WOJSKOWA 08"
+}, {
+	"id": "52",
+	"name": "WITOSA / SOLARZA 07"
+}, {
+	"id": "53",
+	"name": "WITOSA / WIKTORA 05"
+}, {
+	"id": "54",
+	"name": "WITOSA LODOWISKO 06"
+}, {
+	"id": "55",
+	"name": "WITOSA PARK 04"
+}, {
+	"id": "56",
+	"name": "WYSPIAŃSKIEGO 02"
+}, {
+	"id": "57",
+	"name": "WYSPIAŃSKIEGO OSIEDLE 01"
+}, {
+	"id": "58",
+	"name": "WITA STWOSZA / WYSPIAŃSKIEGO 05"
+}, {
+	"id": "59",
+	"name": "WITA STWOSZA / WYSPIAŃSKIEGO 06"
+}, {
+	"id": "60",
+	"name": "WITA STWOSZA KOŚCIÓŁ 04"
+}, {
+	"id": "61",
+	"name": "WITA STWOSZA OSIEDLE 03"
+}, {
+	"id": "62",
+	"name": "WITA STWOSZA / LANGIEWICZA 02"
+}, {
+	"id": "63",
+	"name": "WITA STWOSZA PĘTLA 01"
+}, {
+	"id": "64",
+	"name": "BOYA ŻELEŃSKIEGO 01"
+}, {
+	"id": "65",
+	"name": "BOYA ŻELEŃSKIEGO 02"
+}, {
+	"id": "66",
+	"name": "CHMAJA BLOKI 03"
+}, {
+	"id": "67",
+	"name": "CHMAJA / LANGIEWICZA 01"
+}, {
+	"id": "68",
+	"name": "CHMAJA / LANGIEWICZA 02"
+}, {
+	"id": "69",
+	"name": "LANGIEWICZA PARK 03"
+}, {
+	"id": "70",
+	"name": "LANGIEWICZA / HOFFMANOWEJ 01"
+}, {
+	"id": "71",
+	"name": "LANGIEWICZA BLOKI 02"
+}, {
+	"id": "72",
+	"name": "MOCHNACKIEGO OSIEDLE 02"
+}, {
+	"id": "73",
+	"name": "MOCHNACKIEGO 01"
+}, {
+	"id": "74",
+	"name": "LISA - KULI RONDO 02"
+}, {
+	"id": "75",
+	"name": "LANGIEWICZA / WITA STWOSZA 04"
+}, {
+	"id": "76",
+	"name": "LANGIEWICZA / BOHATERÓW 05"
+}, {
+	"id": "77",
+	"name": "STARONIWSKA / RZEMIEŚLNICZA 02"
+}, {
+	"id": "78",
+	"name": "WITOSA / LANGIEWICZA 02"
+}, {
+	"id": "79",
+	"name": "PANORAMICZNA 02"
+}, {
+	"id": "80",
+	"name": "PANORAMICZNA 01"
+}, {
+	"id": "81",
+	"name": "STRZELNICZA 02"
+}, {
+	"id": "82",
+	"name": "STRZELNICZA 01"
+}, {
+	"id": "83",
+	"name": "WIKTORA / WITOSA 02"
+}, {
+	"id": "84",
+	"name": "WIKTORA / STOJAŁOWSKIEGO 04"
+}, {
+	"id": "85",
+	"name": "WIKTORA PARK 01"
+}, {
+	"id": "86",
+	"name": "BŁ. KAROLINY / STRZYŻOWSKA 02"
+}, {
+	"id": "87",
+	"name": "BŁ. KAROLINY / STRZYŻOWSKA 01"
+}, {
+	"id": "88",
+	"name": "BAT. CHŁOPSKICH MPDIM 05"
+}, {
+	"id": "89",
+	"name": "BAT. CHŁOPSKICH / DĄBROWSKIEGO 02"
+}, {
+	"id": "90",
+	"name": "BAT. CHŁOPSKICH / PODKARPACKA 01"
+}, {
+	"id": "91",
+	"name": "BAT. CHŁOPSKICH STACJA PALIW 04"
+}, {
+	"id": "92",
+	"name": "BAT. CHŁOPSKICH / PRZEMYSŁOWA 03"
+}, {
+	"id": "93",
+	"name": "PRZEMYSŁOWA 01"
+}, {
+	"id": "94",
+	"name": "PRZEMYSŁOWA / BAT. CHŁOPSKICH 02"
+}, {
+	"id": "95",
+	"name": "PRZEMYSŁOWA / MAGAZYNOWA 04"
+}, {
+	"id": "96",
+	"name": "PRZEMYSŁOWA / ARCHITEKTÓW 03"
+}, {
+	"id": "97",
+	"name": "PRZEMYSŁOWA U. CELNY 05"
+}, {
+	"id": "98",
+	"name": "PODKARPACKA POLITECHNIKA 02"
+}, {
+	"id": "99",
+	"name": "PODKARPACKA POLITECHNIKA 01"
+}, {
+	"id": "100",
+	"name": "PODKARPACKA / MATUSZCZAKA 03"
+}, {
+	"id": "101",
+	"name": "PODKARPACKA / MATUSZCZAKA 04"
+}, {
+	"id": "102",
+	"name": "MATUSZCZAKA / RYMANOWSKA 02"
+}, {
+	"id": "103",
+	"name": "MATUSZCZAKA PĘTLA 04"
+}, {
+	"id": "104",
+	"name": "PODKARPACKA / WETLIŃSKA 06"
+}, {
+	"id": "105",
+	"name": "PODKARPACKA / WETLIŃSKA 05"
+}, {
+	"id": "106",
+	"name": "PODKARPACKA KOŚCIÓŁ 08"
+}, {
+	"id": "107",
+	"name": "PODKARPACKA KOŚCIÓŁ 07"
+}, {
+	"id": "108",
+	"name": "POWST. WARSZAWY POLITECHNIKA 02"
+}, {
+	"id": "109",
+	"name": "POWST. WARSZAWY KOŚCIÓŁ 01"
+}, {
+	"id": "110",
+	"name": "POWST. WARSZAWY KINO 04"
+}, {
+	"id": "111",
+	"name": "POWST. WARSZAWY SHELL 03"
+}, {
+	"id": "112",
+	"name": "POWST. WARSZAWY WSK 06"
+}, {
+	"id": "113",
+	"name": "HETMAŃSKA STADION 07"
+}, {
+	"id": "114",
+	"name": "HETMAŃSKA ZS. MECH. 05"
+}, {
+	"id": "115",
+	"name": "HETMAŃSKA / W. POLA 06"
+}, {
+	"id": "116",
+	"name": "HETMAŃSKA PRZYCHODNIA 03"
+}, {
+	"id": "117",
+	"name": "HETMAŃSKA PRZYCHODNIA 04"
+}, {
+	"id": "118",
+	"name": "HETMAŃSKA PODZAMCZE 01"
+}, {
+	"id": "119",
+	"name": "HETMAŃSKA PODZAMCZE 02"
+}, {
+	"id": "120",
+	"name": "DĄBROWSKIEGO PARK 02"
+}, {
+	"id": "121",
+	"name": "DĄBROWSKIEGO DWOREK 01"
+}, {
+	"id": "122",
+	"name": "DĄBROWSKIEGO KW POLICJI 04"
+}, {
+	"id": "123",
+	"name": "DĄBROWSKIEGO PAWILONY 03"
+}, {
+	"id": "124",
+	"name": "DĄBROWSKIEGO INSTYTUT MUZYKI 07"
+}, {
+	"id": "125",
+	"name": "DĄBROWSKIEGO / BOH. WESTERPLATTE 08"
+}, {
+	"id": "126",
+	"name": "DĄBROWSKIEGO / BAT. CHŁOPSKICH 10"
+}, {
+	"id": "127",
+	"name": "PODWISŁOCZE U. SKARBOWY 03"
+}, {
+	"id": "128",
+	"name": "KOPISTO MOST ZAMKOWY 04"
+}, {
+	"id": "129",
+	"name": "KOPISTO U. SKARBOWY 03"
+}, {
+	"id": "130",
+	"name": "PODWISŁOCZE DOMKI 01"
+}, {
+	"id": "131",
+	"name": "PODWISŁOCZE KLINIKA 04"
+}, {
+	"id": "132",
+	"name": "PODWISŁOCZE / POWST. WARSZAWY 02"
+}, {
+	"id": "133",
+	"name": "POWST. WARSZAWY ZAPORA 07"
+}, {
+	"id": "134",
+	"name": "POWST. WARSZAWY DOM STUDENTA 08"
+}, {
+	"id": "135",
+	"name": "KWIATKOWSKIEGO ZAPORA 02"
+}, {
+	"id": "136",
+	"name": "POWST. WARSZAWY DOM STUDENTA 09"
+}, {
+	"id": "137",
+	"name": "KWIATKOWSKIEGO DOM STUDENTA 04"
+}, {
+	"id": "138",
+	"name": "KWIATKOWSKIEGO DOM STUDENTA 01"
+}, {
+	"id": "139",
+	"name": "KWIATKOWSKIEGO / STRAŻACKA 06"
+}, {
+	"id": "140",
+	"name": "KWIATKOWSKIEGO / STRAŻACKA 03"
+}, {
+	"id": "141",
+	"name": "KWIATKOWSKIEGO 08"
+}, {
+	"id": "142",
+	"name": "KWIATKOWSKIEGO 05"
+}, {
+	"id": "143",
+	"name": "KWIATKOWSKIEGO / PODMIEJSKA 10"
+}, {
+	"id": "144",
+	"name": "KWIATKOWSKIEGO / KOŁO 07"
+}, {
+	"id": "145",
+	"name": "KWIATKOWSKIEGO 12"
+}, {
+	"id": "146",
+	"name": "KWIATKOWSKIEGO / JACHOWICZA 09"
+}, {
+	"id": "147",
+	"name": "POWST. WARSZAWY NOWE MIASTO 11"
+}, {
+	"id": "148",
+	"name": "POWST. WARSZAWY / GRANICZNA 10"
+}, {
+	"id": "149",
+	"name": "TESCO"
+}, {
+	"id": "150",
+	"name": "POWST. WARSZAWY TESCO 13"
+}, {
+	"id": "151",
+	"name": "POWST. WARSZAWY DZIAŁKI 12"
+}, {
+	"id": "152",
+	"name": "SIKORSKIEGO / POWST. WARSZAWY 02"
+}, {
+	"id": "153",
+	"name": "SIKORSKIEGO KATEDRA 01"
+}, {
+	"id": "154",
+	"name": "SIKORSKIEGO KATEDRA 04"
+}, {
+	"id": "155",
+	"name": "SIKORSKIEGO / ŁUKASIEWICZA 06"
+}, {
+	"id": "156",
+	"name": "ŁUKASIEWICZA / SIKORSKIEGO 02"
+}, {
+	"id": "157",
+	"name": "ŁUKASIEWICZA / ZIMOWIT 04"
+}, {
+	"id": "158",
+	"name": "ŁUKASIEWICZA / KROKUSOWA 01"
+}, {
+	"id": "159",
+	"name": "ŁUKASIEWICZA / SASANKI 03"
+}, {
+	"id": "160",
+	"name": "ŁUKASIEWICZA / GUMIŃSKICH 06"
+}, {
+	"id": "161",
+	"name": "ŁUKASIEWICZA PĘTLA 08"
+}, {
+	"id": "162",
+	"name": "ŁUKASIEWICZA PĘTLA 06"
+}, {
+	"id": "163",
+	"name": "ŁUKASIEWICZA PĘTLA 10"
+}, {
+	"id": "164",
+	"name": "KIEPURY 01"
+}, {
+	"id": "165",
+	"name": "KIEPURY 02"
+}, {
+	"id": "166",
+	"name": "KIEPURY / WICHROWA 03"
+}, {
+	"id": "167",
+	"name": "MATYSOWSKA / SKALISTA 02"
+}, {
+	"id": "168",
+	"name": "ROBOTNICZA / GOŹDZIKOWA 01"
+}, {
+	"id": "169",
+	"name": "ROBOTNICZA CMENTARZ 04"
+}, {
+	"id": "170",
+	"name": "ROBOTNICZA 02"
+}, {
+	"id": "171",
+	"name": "SIKORSKIEGO / ROBOTNICZA 05"
+}, {
+	"id": "172",
+	"name": "SIKORSKIEGO DOMKI 03"
+}, {
+	"id": "173",
+	"name": "SIKORSKIEGO 08"
+}, {
+	"id": "174",
+	"name": "STRAŻACKA / SIKORSKIEGO 05"
+}, {
+	"id": "175",
+	"name": "STRAŻACKA 04"
+}, {
+	"id": "176",
+	"name": "STRAŻACKA 03"
+}, {
+	"id": "177",
+	"name": "MIŁA / STRAŻACKA 02"
+}, {
+	"id": "178",
+	"name": "MIŁA / STRAŻACKA 01"
+}, {
+	"id": "179",
+	"name": "MIŁA BLOKI 03"
+}, {
+	"id": "180",
+	"name": "MIŁA BLOKI 04"
+}, {
+	"id": "181",
+	"name": "MIŁA DOM KULTURY 05"
+}, {
+	"id": "182",
+	"name": "MIŁA SZKOŁA 06"
+}, {
+	"id": "183",
+	"name": "SIKORSKIEGO / STRAŻACKA 10"
+}, {
+	"id": "184",
+	"name": "REJTANA / ARMII KRAJOWEJ 12"
+}, {
+	"id": "185",
+	"name": "REJTANA / PADEREWSKIEGO 10"
+}, {
+	"id": "186",
+	"name": "REJTANA NOWE MIASTO 09"
+}, {
+	"id": "187",
+	"name": "PADEREWSKIEGO SKLEP 02"
+}, {
+	"id": "188",
+	"name": "PADEREWSKIEGO OSIEDLE 01"
+}, {
+	"id": "189",
+	"name": "KRZYŻANOWSKIEGO / PADEREWSKIEGO 03"
+}, {
+	"id": "190",
+	"name": "KRZYŻANOWSKIEGO / ARMII KRAJOWEJ 04"
+}, {
+	"id": "191",
+	"name": "ARMII KRAJOWEJ HOTEL 04"
+}, {
+	"id": "192",
+	"name": "ARMII KRAJOWEJ / POWST. LISTOPADOWYCH 06"
+}, {
+	"id": "193",
+	"name": "ARMII KRAJOWEJ / MIESZKA I 05"
+}, {
+	"id": "194",
+	"name": "PADEREWSKIEGO / ARMII KRAJOWEJ 04"
+}, {
+	"id": "195",
+	"name": "PADEREWSKIEGO PARK 03"
+}, {
+	"id": "196",
+	"name": "PADEREWSKIEGO PARK 06"
+}, {
+	"id": "197",
+	"name": "PADEREWSKIEGO KOŚCIÓŁ 08"
+}, {
+	"id": "198",
+	"name": "PADEREWSKIEGO KOŚCIÓŁ 05"
+}, {
+	"id": "199",
+	"name": "SŁOCIŃSKA SZKOŁA 01"
+}, {
+	"id": "200",
+	"name": "SŁOCIŃSKA SZKOŁA 02"
+}, {
+	"id": "201",
+	"name": "SŁOCIŃSKA CMENTARZ 03"
+}, {
+	"id": "202",
+	"name": "SŁOCIŃSKA CMENTARZ 04"
+}, {
+	"id": "203",
+	"name": "SŁOCIŃSKA 06"
+}, {
+	"id": "204",
+	"name": "SŁOCIŃSKA 05"
+}, {
+	"id": "205",
+	"name": "ŚW. ROCHA SZKOŁA 01"
+}, {
+	"id": "206",
+	"name": "ŚW. ROCHA SZKOŁA 02"
+}, {
+	"id": "207",
+	"name": "ŚW. ROCHA BLOKI 04"
+}, {
+	"id": "208",
+	"name": "ŚW. ROCHA BLOKI 03"
+}, {
+	"id": "209",
+	"name": "ŚW. ROCHA KAPLICZKA 07"
+}, {
+	"id": "210",
+	"name": "ŚW. ROCHA KAPLICZKA 08"
+}, {
+	"id": "211",
+	"name": "ŚW. ROCHA DOMKI 05"
+}, {
+	"id": "212",
+	"name": "ŚW. ROCHA DOMKI 06"
+}, {
+	"id": "213",
+	"name": "ŚW. ROCHA / ŚW. MARCINA 10"
+}, {
+	"id": "214",
+	"name": "ŚW. ROCHA 09"
+}, {
+	"id": "215",
+	"name": "ŚW. ROCHA LASEK PĘTLA 11"
+}, {
+	"id": "216",
+	"name": "WITOLDA SEMINARIUM 01"
+}, {
+	"id": "217",
+	"name": "WITOLDA SEMINARIUM 02"
+}, {
+	"id": "218",
+	"name": "LESZKA CZARNEGO 01"
+}, {
+	"id": "219",
+	"name": "LESZKA CZARNEGO / LITEWSKA 04"
+}, {
+	"id": "220",
+	"name": "NIEMIERSKIEGO 01"
+}, {
+	"id": "221",
+	"name": "NIEMIERSKIEGO 02"
+}, {
+	"id": "222",
+	"name": "ARMII KRAJOWEJ / PADEREWSKIEGO 08"
+}, {
+	"id": "223",
+	"name": "NIEPODLEGŁOŚCI / ARMII KRAJOWEJ 05"
+}, {
+	"id": "224",
+	"name": "NIEPODLEGŁOŚCI DZIAŁKI 06"
+}, {
+	"id": "225",
+	"name": "NIEPODLEGŁOŚCI / MIESZKA I 03"
+}, {
+	"id": "226",
+	"name": "NIEPODLEGŁOŚCI DOM DZIECKA 04"
+}, {
+	"id": "227",
+	"name": "NIEPODLEGŁOŚCI PAWILONY 02"
+}, {
+	"id": "228",
+	"name": "NIEPODLEGŁOŚCI DOM DZIECKA 01"
+}, {
+	"id": "229",
+	"name": "REJTANA UNIWERSYTET 06"
+}, {
+	"id": "230",
+	"name": "REJTANA MILLENIUM HALL 07"
+}, {
+	"id": "231",
+	"name": "KOPISTO UNIWERSYTET 01"
+}, {
+	"id": "232",
+	"name": "KOPISTO UNIWERSYTET 02"
+}, {
+	"id": "233",
+	"name": "KRZYŻANOWSKIEGO BLOKI 02"
+}, {
+	"id": "234",
+	"name": "KRZYŻANOWSKIEGO 01"
+}, {
+	"id": "235",
+	"name": "REJTANA UNIWERSYTET 05"
+}, {
+	"id": "236",
+	"name": "REJTANA CMENTARZ 04"
+}, {
+	"id": "237",
+	"name": "REJTANA MERKURY MARKET 01"
+}, {
+	"id": "238",
+	"name": "REJTANA / LWOWSKA 02"
+}, {
+	"id": "239",
+	"name": "LWOWSKA JEDN. WOJSKOWA 02"
+}, {
+	"id": "240",
+	"name": "LWOWSKA JEDN. WOJSKOWA 01"
+}, {
+	"id": "241",
+	"name": "MIESZKA I / KUSTRONIA 01"
+}, {
+	"id": "242",
+	"name": "MIESZKA I OSIEDLE 02"
+}, {
+	"id": "243",
+	"name": "ARMII KRAJOWEJ KOŚCIÓŁ 09"
+}, {
+	"id": "244",
+	"name": "ARMII KRAJOWEJ SZPITAL 10"
+}, {
+	"id": "245",
+	"name": "LWOWSKA CMENTARZ 03"
+}, {
+	"id": "246",
+	"name": "LWOWSKA CMENTARZ 04"
+}, {
+	"id": "247",
+	"name": "ŻOŁNIERZY I ARMII WOJSKA POLSKIEGO 02"
+}, {
+	"id": "248",
+	"name": "LWOWSKA SZPITAL 06"
+}, {
+	"id": "249",
+	"name": "LWOWSKA SZPITAL 05"
+}, {
+	"id": "250",
+	"name": "LWOWSKA SZPITAL PĘTLA 02"
+}, {
+	"id": "251",
+	"name": "LESZKA CZARNEGO / ANNY JAGIELLONKI 02"
+}, {
+	"id": "252",
+	"name": "LWOWSKA / CIENISTA 07"
+}, {
+	"id": "253",
+	"name": "CIENISTA / LWOWSKA 02"
+}, {
+	"id": "254",
+	"name": "CIENISTA CMENTARZ 04"
+}, {
+	"id": "255",
+	"name": "CIENISTA CMENTARZ 01"
+}, {
+	"id": "256",
+	"name": "OLBRACHTA / LWOWSKA 02"
+}, {
+	"id": "257",
+	"name": "OLBRACHTA / LWOWSKA 01"
+}, {
+	"id": "258",
+	"name": "OLBRACHTA / KR. MARYSIEŃKI 03"
+}, {
+	"id": "259",
+	"name": "OLBRACHTA 05"
+}, {
+	"id": "260",
+	"name": "OLBRACHTA / ZYGMUNTA I STAREGO 04"
+}, {
+	"id": "261",
+	"name": "OLBRACHTA 06"
+}, {
+	"id": "262",
+	"name": "OLBRACHTA PĘTLA 09"
+}, {
+	"id": "263",
+	"name": "LWOWSKA / OLBRACHTA 08"
+}, {
+	"id": "264",
+	"name": "LWOWSKA / BAŁTYCKA 09"
+}, {
+	"id": "265",
+	"name": "LWOWSKA / KR. MARYSIENKI 10"
+}, {
+	"id": "266",
+	"name": "LWOWSKA GRANICA 12"
+}, {
+	"id": "267",
+	"name": "LWOWSKA GRANICA 11"
+}, {
+	"id": "268",
+	"name": "KONF. BARSKICH / TRAUGUTTA 02"
+}, {
+	"id": "269",
+	"name": "KONF. BARSKICH / TRAUGUTTA 01"
+}, {
+	"id": "270",
+	"name": "ZAŁĘSKA / MODRA 02"
+}, {
+	"id": "271",
+	"name": "ZAŁĘSKA / KONF. BARSKICH 01"
+}, {
+	"id": "272",
+	"name": "SIECIECHA / ZAŁĘSKA 02"
+}, {
+	"id": "273",
+	"name": "SIECIECHA / ZAŁĘSKA 01"
+}, {
+	"id": "274",
+	"name": "KSIĘŻYCOWA / ZAŁĘSKA 02"
+}, {
+	"id": "275",
+	"name": "KSIĘŻYCOWA / ZAŁĘSKA 01"
+}, {
+	"id": "276",
+	"name": "ZAŁĘSKA / RZECHA 03"
+}, {
+	"id": "277",
+	"name": "ZAŁĘSKA 06"
+}, {
+	"id": "278",
+	"name": "ZAŁĘSKA 07"
+}, {
+	"id": "279",
+	"name": "RZECHA 03"
+}, {
+	"id": "280",
+	"name": "RZECHA 04"
+}, {
+	"id": "281",
+	"name": "RZECHA STACJA PALIW 06"
+}, {
+	"id": "282",
+	"name": "RZECHA STACJA PALIW 05"
+}, {
+	"id": "283",
+	"name": "CIEPŁOWNICZA MPGK 02"
+}, {
+	"id": "284",
+	"name": "CIEPŁOWNICZA MPGK 01"
+}, {
+	"id": "285",
+	"name": "CIEPŁOWNICZA ELEKTOCIEPŁOWNIA 04"
+}, {
+	"id": "286",
+	"name": "STĄCZKA KOŚCIÓŁ 02"
+}, {
+	"id": "287",
+	"name": "STĄCZKA KOŚCIÓŁ 01"
+}, {
+	"id": "288",
+	"name": "STĄCZKA / JASPISOWA 04"
+}, {
+	"id": "290",
+	"name": "POTOCKIEGO / NEFRYTOWA 04"
+}, {
+	"id": "291",
+	"name": "POTOCKIEGO / NEFRYTOWA 01"
+}, {
+	"id": "292",
+	"name": "POTOCKIEGO / AMETYSTOWA 06"
+}, {
+	"id": "293",
+	"name": "POTOCKIEGO / AMETYSTOWA 03"
+}, {
+	"id": "294",
+	"name": "POTOCKIEGO / NEFRYTOWA 05"
+}, {
+	"id": "295",
+	"name": "POTOCKIEGO / GRAFITOWA 08"
+}, {
+	"id": "296",
+	"name": "POTOCKIEGO PĘTLA 10"
+}, {
+	"id": "297",
+	"name": "LUBELSKA 08"
+}, {
+	"id": "298",
+	"name": "LUBELSKA 07"
+}, {
+	"id": "299",
+	"name": "LUBELSKA OS. OGRODY 10"
+}, {
+	"id": "300",
+	"name": "LUBELSKA OS. OGRODY 09"
+}, {
+	"id": "301",
+	"name": "LUBELSKA MPK 13"
+}, {
+	"id": "302",
+	"name": "LUBELSKA MPK 12"
+}, {
+	"id": "303",
+	"name": "LUBELSKA GRANICA 15"
+}, {
+	"id": "304",
+	"name": "LUBELSKA GRANICA 14"
+}, {
+	"id": "305",
+	"name": "WYZWOLENIA MOSTEK 06"
+}, {
+	"id": "306",
+	"name": "WYZWOLENIA / BRYDAKA 08"
+}, {
+	"id": "307",
+	"name": "WYZWOLENIA KOŚCIÓŁ 05"
+}, {
+	"id": "308",
+	"name": "WYZWOLENIA / OKULICKIEGO 03"
+}, {
+	"id": "309",
+	"name": "WYZWOLENIA / OFIAR KATYNIA 07"
+}, {
+	"id": "310",
+	"name": "OBR. POCZTY GDAŃSKIEJ 02"
+}, {
+	"id": "311",
+	"name": "OFIAR KATYNIA / WYZWOLENIA 02"
+}, {
+	"id": "312",
+	"name": "OFIAR KATYNIA KŁADKA 01"
+}, {
+	"id": "313",
+	"name": "OFIAR KATYNIA KŁADKA 04"
+}, {
+	"id": "314",
+	"name": "MIKOŁAJCZYKA PĘTLA 03"
+}, {
+	"id": "315",
+	"name": "WYZWOLENIA / OFIAR KATYNIA 10"
+}, {
+	"id": "316",
+	"name": "OBR. POCZTY GDAŃSKIEJ 01"
+}, {
+	"id": "317",
+	"name": "OBR. POCZTY GDAŃSKIEJ POLICJA 04"
+}, {
+	"id": "318",
+	"name": "OBR. POCZTY GDAŃSKIEJ PĘTLA 08"
+}, {
+	"id": "319",
+	"name": "OBR. POCZTY GDAŃSKIEJ / MIŁOCIŃSKA 03"
+}, {
+	"id": "320",
+	"name": "OBR. POCZTY GDAŃSKIEJ PĘTLA 06"
+}, {
+	"id": "321",
+	"name": "MIŁOCIŃSKA PĘTLA 01"
+}, {
+	"id": "322",
+	"name": "OKULICKIEGO / WYZWOLENIA 05"
+}, {
+	"id": "323",
+	"name": "OKULICKIEGO / ZWIERZYNIECKA 03"
+}, {
+	"id": "324",
+	"name": "OKULICKIEGO / ZWIERZYNIECKA 04"
+}, {
+	"id": "325",
+	"name": "OKULICKIEGO OSIEDLE 01"
+}, {
+	"id": "326",
+	"name": "OKULICKIEGO C. HANDLOWE 02"
+}, {
+	"id": "327",
+	"name": "KRAKOWSKA SZPITAL 04"
+}, {
+	"id": "328",
+	"name": "KRAKOWSKA SZPITAL 03"
+}, {
+	"id": "329",
+	"name": "KRAKOWSKA GALERIA 06"
+}, {
+	"id": "330",
+	"name": "KRAKOWSKA GALERIA 05"
+}, {
+	"id": "331",
+	"name": "KRAKOWSKA / WYZWOLENIA 08"
+}, {
+	"id": "332",
+	"name": "KRAKOWSKA / MIELECKA 07"
+}, {
+	"id": "333",
+	"name": "WYZWOLENIA / MIKOŁAJCZYKA 09"
+}, {
+	"id": "334",
+	"name": "WYZWOLENIA / KRAKOWSKA 12"
+}, {
+	"id": "335",
+	"name": "KRAKOWSKA CMENTARZ 09"
+}, {
+	"id": "336",
+	"name": "KRAKOWSKA CMENTARZ 10"
+}, {
+	"id": "337",
+	"name": "KRAKOWSKA / CERAMICZNA 12"
+}, {
+	"id": "338",
+	"name": "KRAKOWSKA / USTRZYCKA 11"
+}, {
+	"id": "339",
+	"name": "WARSZAWSKA / BOROWA 08"
+}, {
+	"id": "340",
+	"name": "WARSZAWSKA / BOROWA 07"
+}, {
+	"id": "341",
+	"name": "MIŁOCIN TORY 01"
+}, {
+	"id": "342",
+	"name": "WARSZAWSKA STACJA PKP 09"
+}, {
+	"id": "343",
+	"name": "KWIATKOWSKIEGO HOTEL 14"
+}, {
+	"id": "344",
+	"name": "KWIATKOWSKIEGO HOTEL 11"
+}, {
+	"id": "345",
+	"name": "JANA PAWŁA II OSP 02"
+}, {
+	"id": "346",
+	"name": "JANA PAWŁA II OSP 01"
+}, {
+	"id": "347",
+	"name": "JANA PAWŁA II / GOŚCINNA 04"
+}, {
+	"id": "348",
+	"name": "JANA PAWŁA II / GOŚCINNA 03"
+}, {
+	"id": "349",
+	"name": "JANA PAWŁA II 06"
+}, {
+	"id": "350",
+	"name": "JANA PAWŁA II 05"
+}, {
+	"id": "351",
+	"name": "JANA PAWŁA II / ZAKĄTKOWA 07"
+}, {
+	"id": "352",
+	"name": "JANA PAWŁA II / USTRONNA 08"
+}, {
+	"id": "353",
+	"name": "JANA PAWŁA II / HERBOWA 10"
+}, {
+	"id": "354",
+	"name": "JANA PAWŁA II / HERBOWA 09"
+}, {
+	"id": "355",
+	"name": "JANA PAWŁA II / STRZELCÓW 14"
+}, {
+	"id": "356",
+	"name": "JANA PAWŁA II / STRZELCÓW 13"
+}, {
+	"id": "357",
+	"name": "BUDZIWOJSKA KAPLICZKA 11"
+}, {
+	"id": "358",
+	"name": "BUDZIWOJSKA KAPLICZKA 14"
+}, {
+	"id": "359",
+	"name": "BUDZIWOJSKA / KWIATOWA 13"
+}, {
+	"id": "360",
+	"name": "BUDZIWOJSKA / POSELSKA 18"
+}, {
+	"id": "361",
+	"name": "POSELSKA / BUDZIWOJSKA 04"
+}, {
+	"id": "362",
+	"name": "POSELSKA / BUDZIWOJSKA 03"
+}, {
+	"id": "363",
+	"name": "BUDZIWOJSKA / JANA PAWŁA II 07"
+}, {
+	"id": "364",
+	"name": "BUDZIWOJSKA 17"
+}, {
+	"id": "365",
+	"name": "BUDZIWOJSKA 20"
+}, {
+	"id": "366",
+	"name": "BUDZIWOJSKA PĘTLA 22"
+}, {
+	"id": "367",
+	"name": "BUDZIWOJSKA / KARMELICKA 08"
+}, {
+	"id": "368",
+	"name": "BUDZIWOJSKA / KARMELICKA 05"
+}, {
+	"id": "369",
+	"name": "MATYSOWSKA SZKOŁA 04"
+}, {
+	"id": "370",
+	"name": "MATYSOWSKA SZKOŁA 01"
+}, {
+	"id": "371",
+	"name": "MATYSOWSKA GÓRKA 03"
+}, {
+	"id": "372",
+	"name": "MATYSOWSKA GÓRKA 06"
+}, {
+	"id": "373",
+	"name": "MATYSOWSKA PĘTLA 08"
+}, {
+	"id": "374",
+	"name": "BUDZIWOJSKA / LEGIONISTÓW 04"
+}, {
+	"id": "375",
+	"name": "BUDZIWOJSKA 03"
+}, {
+	"id": "376",
+	"name": "BUDZIWOJSKA / TARNOPOLSKA 06"
+}, {
+	"id": "377",
+	"name": "BUDZIWOJSKA / HERBOWA 02"
+}, {
+	"id": "378",
+	"name": "BUDZIWOJSKA / HERBOWA 01"
+}, {
+	"id": "379",
+	"name": "TYCZYN GRUNWALDZKA PARK 02"
+}, {
+	"id": "380",
+	"name": "TYCZYN GRUNWALDZKA POM 02"
+}, {
+	"id": "381",
+	"name": "SIKORSKIEGO / KARD. K. WOJTYŁY 16"
+}, {
+	"id": "382",
+	"name": "SIKORSKIEGO / RUCZAJOWA 13"
+}, {
+	"id": "383",
+	"name": "SIKORSKIEGO 07"
+}, {
+	"id": "384",
+	"name": "SIKORSKIEGO 12"
+}, {
+	"id": "385",
+	"name": "SIKORSKIEGO / RODZINNA 14"
+}, {
+	"id": "386",
+	"name": "SIKORSKIEGO GRANICA 15"
+}, {
+	"id": "387",
+	"name": "TYCZYN ORKANA SKRZYŻOWANIE 13"
+}, {
+	"id": "388",
+	"name": "TYCZYN ORKANA SKRZYŻOWANIE 16"
+}, {
+	"id": "389",
+	"name": "SIKORSKIEGO / RODZINNA 09"
+}, {
+	"id": "390",
+	"name": "KARD. K. WOJTYŁY PĘTLA 03"
+}, {
+	"id": "391",
+	"name": "KARD. K. WOJTYŁY PĘTLA 04"
+}, {
+	"id": "392",
+	"name": "KARD. K. WOJTYŁY KOŚCIÓŁ 06"
+}, {
+	"id": "393",
+	"name": "KARD. K. WOJTYŁY KOŚCIÓŁ 05"
+}, {
+	"id": "394",
+	"name": "PODLEŚNA / LASKOWA 03"
+}, {
+	"id": "395",
+	"name": "PODLEŚNA / LILIOWA 04"
+}, {
+	"id": "396",
+	"name": "PODLEŚNA / PRZYLASEK 08"
+}, {
+	"id": "397",
+	"name": "PODLEŚNA / JARZĘBINOWA 07"
+}, {
+	"id": "398",
+	"name": "HERMANOWA PRZYLASEK PĘTLA 03"
+}, {
+	"id": "399",
+	"name": "HERMANOWA PRZYLASEK ŹRÓDEŁKO 01"
+}, {
+	"id": "400",
+	"name": "HERMANOWA PRZYLASEK ŹRÓDEŁKO 02"
+}, {
+	"id": "401",
+	"name": "STRAŻACKA / GRANICZNA 01"
+}, {
+	"id": "402",
+	"name": "STRAŻACKA / GRANICZNA 02"
+}, {
+	"id": "403",
+	"name": "MYŚLIWSKA GRANICA 04"
+}, {
+	"id": "404",
+	"name": "MYŚLIWSKA GRANICA 03"
+}, {
+	"id": "405",
+	"name": "POGWIZDÓW NOWY WIEŚ"
+}, {
+	"id": "406",
+	"name": "POGWIZDÓW NOWY WIEŚ"
+}, {
+	"id": "407",
+	"name": "POGWIZDÓW NOWY SZKOŁA"
+}, {
+	"id": "408",
+	"name": "POGWIZDÓW NOWY SZKOŁA"
+}, {
+	"id": "409",
+	"name": "POGWIZDÓW NOWY"
+}, {
+	"id": "410",
+	"name": "POGWIZDÓW NOWY"
+}, {
+	"id": "411",
+	"name": "RUDNA WIELKA PEHAMET 23"
+}, {
+	"id": "412",
+	"name": "RUDNA WIELKA PEHAMET 24"
+}, {
+	"id": "413",
+	"name": "RUDNA WIELKA KOŚCIÓŁ 21"
+}, {
+	"id": "414",
+	"name": "RUDNA WIELKA KOŚCIÓŁ 22"
+}, {
+	"id": "415",
+	"name": "RUDNA MAŁA PAŃSTW. OŚR. MASZYN"
+}, {
+	"id": "416",
+	"name": "RUDNA MAŁA PAŃSTW. OŚR. MASZYN"
+}, {
+	"id": "417",
+	"name": "RUDNA MAŁA SKRZYŻ."
+}, {
+	"id": "418",
+	"name": "RUDNA MAŁA SKRZYŻ."
+}, {
+	"id": "419",
+	"name": "RUDNA MAŁA SZKOŁA"
+}, {
+	"id": "420",
+	"name": "RUDNA MAŁA SZKOŁA"
+}, {
+	"id": "421",
+	"name": "RUDNA MAŁA KIOSK"
+}, {
+	"id": "422",
+	"name": "RUDNA MAŁA KIOSK"
+}, {
+	"id": "423",
+	"name": "RUDNA MAŁA PĘTLA"
+}, {
+	"id": "424",
+	"name": "MIŁOCIN ZAKŁADY GRAFICZNE"
+}, {
+	"id": "425",
+	"name": "MIŁOCIN ZAKŁADY GRAFICZNE"
+}, {
+	"id": "426",
+	"name": "POGWIZDÓW NOWY"
+}, {
+	"id": "427",
+	"name": "POGWIZDÓW NOWY"
+}, {
+	"id": "428",
+	"name": "ZACZERNIE SKRZYŻ."
+}, {
+	"id": "429",
+	"name": "ZACZERNIE SKRZYŻ."
+}, {
+	"id": "430",
+	"name": "ZACZERNIE BROWAR"
+}, {
+	"id": "431",
+	"name": "ZACZERNIE BROWAR"
+}, {
+	"id": "432",
+	"name": "ZACZERNIE WARUNKOWY"
+}, {
+	"id": "433",
+	"name": "ZACZERNIE WARUNKOWY"
+}, {
+	"id": "434",
+	"name": "ZACZERNIE SZKOŁA"
+}, {
+	"id": "435",
+	"name": "ZACZERNIE SZKOŁA"
+}, {
+	"id": "436",
+	"name": "ZACZERNIE ZAKRĘT"
+}, {
+	"id": "437",
+	"name": "ZACZERNIE ZAKRĘT"
+}, {
+	"id": "438",
+	"name": "ZACZERNIE WIEŚ"
+}, {
+	"id": "439",
+	"name": "ZACZERNIE WIEŚ"
+}, {
+	"id": "440",
+	"name": "ZACZERNIE PĘTLA"
+}, {
+	"id": "441",
+	"name": "ZACZERNIE PĘTLA"
+}, {
+	"id": "442",
+	"name": "NOWA WIEŚ ZACZERSKA"
+}, {
+	"id": "443",
+	"name": "NOWA WIEŚ ZACZERSKA"
+}, {
+	"id": "444",
+	"name": "NOWA WIEŚ ZACZERSKA PĘTLA"
+}, {
+	"id": "445",
+	"name": "NOWA WIEŚ ZACZERSKA PĘTLA"
+}, {
+	"id": "446",
+	"name": "TRZEBOWNISKO PKS"
+}, {
+	"id": "447",
+	"name": "TRZEBOWNISKO PKS"
+}, {
+	"id": "448",
+	"name": "TRZEBOWNISKO MLECZARNIA"
+}, {
+	"id": "449",
+	"name": "TRZEBOWNISKO MLECZARNIA"
+}, {
+	"id": "450",
+	"name": "TRZEBOWNISKO SKRZYŻ."
+}, {
+	"id": "451",
+	"name": "TRZEBOWNISKO SKRZYŻ."
+}, {
+	"id": "452",
+	"name": "NOWA WIEŚ"
+}, {
+	"id": "453",
+	"name": "NOWA WIEŚ"
+}, {
+	"id": "454",
+	"name": "NOWA WIEŚ PORT"
+}, {
+	"id": "455",
+	"name": "NOWA WIEŚ PORT"
+}, {
+	"id": "456",
+	"name": "JASIONKA HANGARY"
+}, {
+	"id": "457",
+	"name": "JASIONKA HANGARY"
+}, {
+	"id": "458",
+	"name": "JASIONKA POCZTA"
+}, {
+	"id": "459",
+	"name": "JASIONKA POCZTA"
+}, {
+	"id": "460",
+	"name": "JASIONKA GROND"
+}, {
+	"id": "461",
+	"name": "JASIONKA GROND"
+}, {
+	"id": "462",
+	"name": "STOBIERNA DOLNA"
+}, {
+	"id": "463",
+	"name": "STOBIERNA DOLNA"
+}, {
+	"id": "464",
+	"name": "STOBIERNA I"
+}, {
+	"id": "465",
+	"name": "STOBIERNA I"
+}, {
+	"id": "466",
+	"name": "STOBIERNA SZKOŁA"
+}, {
+	"id": "467",
+	"name": "STOBIERNA SZKOŁA"
+}, {
+	"id": "468",
+	"name": "STOBIERNA OŚRODEK ZDROWIA"
+}, {
+	"id": "469",
+	"name": "STOBIERNA OŚRODEK ZDROWIA"
+}, {
+	"id": "470",
+	"name": "STOBIERNA KRZYWE"
+}, {
+	"id": "471",
+	"name": "STOBIERNA"
+}, {
+	"id": "472",
+	"name": "STOBIERNA"
+}, {
+	"id": "473",
+	"name": "TRZEBOWNISKO UG"
+}, {
+	"id": "474",
+	"name": "TRZEBOWNISKO UG"
+}, {
+	"id": "475",
+	"name": "TRZEBOWNISKO WIEŚ"
+}, {
+	"id": "476",
+	"name": "TRZEBOWNISKO WIEŚ"
+}, {
+	"id": "477",
+	"name": "JASIONKA ŁĄKI"
+}, {
+	"id": "478",
+	"name": "JASIONKA ŁĄKI"
+}, {
+	"id": "479",
+	"name": "WÓLKA PODLEŚNA I"
+}, {
+	"id": "480",
+	"name": "WÓLKA PODLEŚNA I"
+}, {
+	"id": "481",
+	"name": "WÓLKA PODLEŚNA II"
+}, {
+	"id": "482",
+	"name": "WÓLKA PODLEŚNA II"
+}, {
+	"id": "483",
+	"name": "WÓLKA PODLEŚNA III"
+}, {
+	"id": "484",
+	"name": "WÓLKA PODLEŚNA III"
+}, {
+	"id": "485",
+	"name": "WÓLKA PODLEŚNA KOŚCIÓŁ"
+}, {
+	"id": "486",
+	"name": "WÓLKA PODLEŚNA KOŚCIÓŁ"
+}, {
+	"id": "487",
+	"name": "WÓLKA PODLEŚNA PĘTLA"
+}, {
+	"id": "488",
+	"name": "WÓLKA PODLEŚNA PĘTLA"
+}, {
+	"id": "489",
+	"name": "POGWIZDÓW PĘTLA"
+}, {
+	"id": "490",
+	"name": "TRZEBOWNISKO WARUNKOWY"
+}, {
+	"id": "491",
+	"name": "TRZEBOWNISKO WARUNKOWY"
+}, {
+	"id": "492",
+	"name": "TRZEBOWNISKO REJON DRÓG"
+}, {
+	"id": "493",
+	"name": "TRZEBOWNISKO SPINY"
+}, {
+	"id": "494",
+	"name": "TRZEBOWNISKO SPINY"
+}, {
+	"id": "495",
+	"name": "TRZEBOWNISKO"
+}, {
+	"id": "496",
+	"name": "TERLICZKA SKLEP"
+}, {
+	"id": "497",
+	"name": "TERLICZKA SKLEP"
+}, {
+	"id": "498",
+	"name": "TERLICZKA ŁĄKI"
+}, {
+	"id": "499",
+	"name": "TERLICZKA ŁĄKI"
+}, {
+	"id": "500",
+	"name": "ŁUKAWIEC KAPLICZKA"
+}, {
+	"id": "501",
+	"name": "ŁUKAWIEC KAPLICZKA"
+}, {
+	"id": "502",
+	"name": "ŁUKAWIEC SKLEP"
+}, {
+	"id": "503",
+	"name": "ŁUKAWIEC SKLEP"
+}, {
+	"id": "504",
+	"name": "ŁUKAWIEC KRZYŻ"
+}, {
+	"id": "505",
+	"name": "ŁUKAWIEC KRZYŻ"
+}, {
+	"id": "506",
+	"name": "ŁUKAWIEC KOŚCIÓŁ"
+}, {
+	"id": "507",
+	"name": "ŁUKAWIEC KOŚCIÓŁ"
+}, {
+	"id": "508",
+	"name": "ŁUKAWIEC PRZEDSZKOLE"
+}, {
+	"id": "509",
+	"name": "ŁUKAWIEC PRZEDSZKOLE"
+}, {
+	"id": "510",
+	"name": "ŁUKAWIEC PRZED SZKOŁĄ"
+}, {
+	"id": "511",
+	"name": "ŁUKAWIEC SZKOŁA"
+}, {
+	"id": "512",
+	"name": "ŁUKAWIEC PASTWISKO"
+}, {
+	"id": "513",
+	"name": "ŁUKAWIEC PASTWISKO"
+}, {
+	"id": "514",
+	"name": "ŁUKAWIEC SZKOŁA"
+}, {
+	"id": "515",
+	"name": "ŁUKAWIEC KÓŁKO ROLNICZE"
+}, {
+	"id": "516",
+	"name": "ŁUKAWIEC KÓŁKO ROLNICZE"
+}, {
+	"id": "517",
+	"name": "ŁUKAWIEC ZAGRODY"
+}, {
+	"id": "518",
+	"name": "ŁUKAWIEC ZAGRODY"
+}, {
+	"id": "519",
+	"name": "ŁUKAWIEC"
+}, {
+	"id": "520",
+	"name": "ŁUKAWIEC"
+}, {
+	"id": "521",
+	"name": "ŁUKAWIEC SKLEP 2"
+}, {
+	"id": "522",
+	"name": "ŁUKAWIEC SKLEP 2"
+}, {
+	"id": "523",
+	"name": "ŁUKAWIEC GRANICA"
+}, {
+	"id": "524",
+	"name": "ŁUKAWIEC GRANICA"
+}, {
+	"id": "525",
+	"name": "ŁUKAWIEC SKRZYŻ."
+}, {
+	"id": "526",
+	"name": "ŁUKAWIEC DOLNY PĘTLA"
+}, {
+	"id": "527",
+	"name": "CZARNA SKLEP"
+}, {
+	"id": "528",
+	"name": "CZARNA SKLEP"
+}, {
+	"id": "529",
+	"name": "CZARNA UG"
+}, {
+	"id": "530",
+	"name": "CZARNA UG"
+}, {
+	"id": "531",
+	"name": "CZARNA ZESPÓŁ SZKÓŁ"
+}, {
+	"id": "532",
+	"name": "CZARNA ZESPÓŁ SZKÓŁ"
+}, {
+	"id": "533",
+	"name": "CZARNA DOM KULTURY"
+}, {
+	"id": "534",
+	"name": "CZARNA DOM KULTURY"
+}, {
+	"id": "535",
+	"name": "ZACZERNIE DWÓR"
+}, {
+	"id": "536",
+	"name": "ZACZERNIE DWÓR"
+}, {
+	"id": "537",
+	"name": "ROGOŹNICA PKS"
+}, {
+	"id": "538",
+	"name": "ROGOŹNICA WIEŚ"
+}, {
+	"id": "539",
+	"name": "ROGOŹNICA I"
+}, {
+	"id": "540",
+	"name": "ROGOŹNICA I"
+}, {
+	"id": "541",
+	"name": "ROGOŹNICA II"
+}, {
+	"id": "542",
+	"name": "ROGOŹNICA II"
+}, {
+	"id": "543",
+	"name": "ROGOŹNICA III"
+}, {
+	"id": "544",
+	"name": "ROGOŹNICA III"
+}, {
+	"id": "545",
+	"name": "LIPIE PĘTLA"
+}, {
+	"id": "546",
+	"name": "LIPIE PĘTLA"
+}, {
+	"id": "547",
+	"name": "LIPIE SKLEP"
+}, {
+	"id": "548",
+	"name": "LIPIE SKLEP"
+}, {
+	"id": "549",
+	"name": "LIPIE WARUNKOWY"
+}, {
+	"id": "550",
+	"name": "LIPIE WARUNKOWY"
+}, {
+	"id": "551",
+	"name": "WOLA CICHA WIEŚ"
+}, {
+	"id": "552",
+	"name": "WOLA CICHA WIEŚ"
+}, {
+	"id": "553",
+	"name": "WOLA CICHA MOST"
+}, {
+	"id": "554",
+	"name": "WOLA CICHA MOST"
+}, {
+	"id": "555",
+	"name": "WOLA CICHA SKLEP"
+}, {
+	"id": "556",
+	"name": "WOLA CICHA SKLEP"
+}, {
+	"id": "557",
+	"name": "ZABAJKA WIEŚ"
+}, {
+	"id": "558",
+	"name": "ZABAJKA WIEŚ"
+}, {
+	"id": "559",
+	"name": "ZABAJKA SKLEP"
+}, {
+	"id": "560",
+	"name": "ZABAJKA SKLEP"
+}, {
+	"id": "561",
+	"name": "ZABAJKA PIASKI"
+}, {
+	"id": "562",
+	"name": "ZABAJKA PIASKI"
+}, {
+	"id": "563",
+	"name": "GŁOGÓW RYNEK"
+}, {
+	"id": "564",
+	"name": "GŁOGÓW OS. SŁONECZNE"
+}, {
+	"id": "565",
+	"name": "GŁOGÓW 3 MAJA"
+}, {
+	"id": "566",
+	"name": "WOLA CICHA SKRZYŻ."
+}, {
+	"id": "567",
+	"name": "WOLA CICHA SKRZYŻ."
+}, {
+	"id": "568",
+	"name": "BÓR PKS"
+}, {
+	"id": "569",
+	"name": "BÓR PKS"
+}, {
+	"id": "570",
+	"name": "ROGOŹNICA PKS"
+}, {
+	"id": "571",
+	"name": "BÓR I"
+}, {
+	"id": "572",
+	"name": "GŁOGÓW RYNEK"
+}, {
+	"id": "573",
+	"name": "GŁOGÓW JANA PAWŁA II SKRZYŻ."
+}, {
+	"id": "574",
+	"name": "GŁOGÓW JANA PAWŁA II SKRZYŻ."
+}, {
+	"id": "575",
+	"name": "GŁOGÓW JANA PAWŁA II BLOK"
+}, {
+	"id": "576",
+	"name": "GŁOGÓW JANA PAWŁA II BLOK"
+}, {
+	"id": "577",
+	"name": "GŁOGÓW JANA PAWŁA II KOŚCIÓŁ"
+}, {
+	"id": "578",
+	"name": "GŁOGÓW JANA PAWŁA II KOŚCIÓŁ"
+}, {
+	"id": "579",
+	"name": "JASIONKA - PORT LOTNICZY"
+}, {
+	"id": "580",
+	"name": "TRZEBOWNISKO"
+}, {
+	"id": "581",
+	"name": "TRZEBOWNISKO SKLEP"
+}, {
+	"id": "582",
+	"name": "TRZEBOWNISKO GRANICA"
+}, {
+	"id": "583",
+	"name": "TRZEBOWNISKO GRANICA"
+}, {
+	"id": "584",
+	"name": "ŁĄKA KOŚCIÓŁ"
+}, {
+	"id": "585",
+	"name": "ŁĄKA KOŚCIÓŁ"
+}, {
+	"id": "586",
+	"name": "ŁĄKA SZKOŁA"
+}, {
+	"id": "587",
+	"name": "ŁĄKA SZKOŁA"
+}, {
+	"id": "588",
+	"name": "ŁĄKA PĘTLA"
+}, {
+	"id": "589",
+	"name": "ŁĄKA DOM STRAŻAKA"
+}, {
+	"id": "590",
+	"name": "ŁĄKA DOM STRAŻAKA"
+}, {
+	"id": "591",
+	"name": "ŁĄKA GRANICA"
+}, {
+	"id": "592",
+	"name": "ŁĄKA GRANICA"
+}, {
+	"id": "593",
+	"name": "ŁĄKA PKS"
+}, {
+	"id": "594",
+	"name": "ŁĄKA ZAKRĘT"
+}, {
+	"id": "595",
+	"name": "ŁĄKA PĘTLA"
+}, {
+	"id": "596",
+	"name": "ŁĄKA TRAFO"
+}, {
+	"id": "597",
+	"name": "ŁĄKA TRAFO"
+}, {
+	"id": "598",
+	"name": "ŁĄKA SKRZYŻ."
+}, {
+	"id": "599",
+	"name": "ŁĄKA SKRZYŻ."
+}, {
+	"id": "600",
+	"name": "ŁĄKA WIEŚ"
+}, {
+	"id": "601",
+	"name": "ŁĄKA WIEŚ"
+}, {
+	"id": "602",
+	"name": "TERLICZKA PĘTLA"
+}, {
+	"id": "603",
+	"name": "KRASNE (ST.PALIW - F.U.) 66"
+}, {
+	"id": "604",
+	"name": "KRASNE (ST.PALIW - F.U.) 69"
+}, {
+	"id": "605",
+	"name": "KRASNE I 67"
+}, {
+	"id": "606",
+	"name": "KRASNE I 68"
+}, {
+	"id": "607",
+	"name": "KRASNE UG 02"
+}, {
+	"id": "608",
+	"name": "KRASNE UG 01"
+}, {
+	"id": "609",
+	"name": "KRASNE SKRZYŻOWANIE 03"
+}, {
+	"id": "610",
+	"name": "KRASNE SKRZYŻOWANIE 04"
+}, {
+	"id": "611",
+	"name": "KRASNE STADION 01"
+}, {
+	"id": "612",
+	"name": "KRASNE 06"
+}, {
+	"id": "613",
+	"name": "KRASNE 05"
+}, {
+	"id": "614",
+	"name": "PODKARPACKA 10"
+}, {
+	"id": "615",
+	"name": "PODKARPACKA 09"
+}, {
+	"id": "616",
+	"name": "PODKARPACKA GRANICA 13"
+}, {
+	"id": "617",
+	"name": "PODKARPACKA GRANICA 12"
+}, {
+	"id": "618",
+	"name": "BOGUCHWAŁA 66"
+}, {
+	"id": "619",
+	"name": "BOGUCHWAŁA 97"
+}, {
+	"id": "620",
+	"name": "BOGUCHWAŁA 64"
+}, {
+	"id": "621",
+	"name": "BOGUCHWAŁA 99"
+}, {
+	"id": "622",
+	"name": "BOGUCHWAŁA UG"
+}, {
+	"id": "623",
+	"name": "BOGUCHWAŁA UG"
+}, {
+	"id": "624",
+	"name": "BOGUCHWAŁA SKRZYŻ."
+}, {
+	"id": "625",
+	"name": "BOGUCHWAŁA SKRZYŻ."
+}, {
+	"id": "626",
+	"name": "BOGUCHWAŁA MOST"
+}, {
+	"id": "627",
+	"name": "BOGUCHWAŁA MOST"
+}, {
+	"id": "628",
+	"name": "LUTORYŻ PKS"
+}, {
+	"id": "629",
+	"name": "LUTORYŻ PKS"
+}, {
+	"id": "630",
+	"name": "LUTORYŻ KOŚCIÓŁ"
+}, {
+	"id": "631",
+	"name": "LUTORYŻ KOŚCIÓŁ"
+}, {
+	"id": "632",
+	"name": "LUTORYŻ SZKOŁA"
+}, {
+	"id": "633",
+	"name": "LUTORYŻ SZKOŁA"
+}, {
+	"id": "634",
+	"name": "LUTORYŻ WIEŚ"
+}, {
+	"id": "635",
+	"name": "LUTORYŻ WIEŚ"
+}, {
+	"id": "636",
+	"name": "LUTORYŻ PĘTLA"
+}, {
+	"id": "637",
+	"name": "BOGUCHWAŁA DOM HANDLOWY"
+}, {
+	"id": "638",
+	"name": "BOGUCHWAŁA STACJA PKP"
+}, {
+	"id": "639",
+	"name": "BOGUCHWAŁA STACJA PKP"
+}, {
+	"id": "640",
+	"name": "BOGUCHWAŁA STADION"
+}, {
+	"id": "641",
+	"name": "BOGUCHWAŁA RAMPA"
+}, {
+	"id": "642",
+	"name": "BOGUCHWAŁA ZAKŁAD NAPRAWY"
+}, {
+	"id": "643",
+	"name": "BOGUCHWAŁA ZAKŁAD NAPRAWY"
+}, {
+	"id": "644",
+	"name": "BOGUCHWAŁA GRANICA"
+}, {
+	"id": "645",
+	"name": "BOGUCHWAŁA GRANICA"
+}, {
+	"id": "646",
+	"name": "NIECHOBRZ WARUNKOWY"
+}, {
+	"id": "647",
+	"name": "NIECHOBRZ WARUNKOWY"
+}, {
+	"id": "648",
+	"name": "NIECHOBRZ BANK SPÓŁDZIELCZY"
+}, {
+	"id": "649",
+	"name": "NIECHOBRZ BANK SPÓŁDZIELCZY"
+}, {
+	"id": "650",
+	"name": "NIECHOBRZ STACJA PALIW"
+}, {
+	"id": "651",
+	"name": "NIECHOBRZ STACJA PALIW"
+}, {
+	"id": "652",
+	"name": "NIECHOBRZ PĘTLA"
+}, {
+	"id": "653",
+	"name": "NIECHOBRZ PĘTLA"
+}, {
+	"id": "654",
+	"name": "NIECHOBRZ PKS II"
+}, {
+	"id": "655",
+	"name": "NIECHOBRZ PKS II"
+}, {
+	"id": "656",
+	"name": "NIECHOBRZ"
+}, {
+	"id": "657",
+	"name": "NIECHOBRZ"
+}, {
+	"id": "658",
+	"name": "NIECHOBRZ PKS I"
+}, {
+	"id": "659",
+	"name": "NIECHOBRZ PKS I"
+}, {
+	"id": "660",
+	"name": "BOGUCHWAŁA SKRZYŻ."
+}, {
+	"id": "661",
+	"name": "MOGIELNICA MOST"
+}, {
+	"id": "662",
+	"name": "MOGIELNICA MOST"
+}, {
+	"id": "663",
+	"name": "MOGIELNICA WARUNKOWY"
+}, {
+	"id": "664",
+	"name": "MOGIELNICA WARUNKOWY"
+}, {
+	"id": "665",
+	"name": "MOGIELNICA"
+}, {
+	"id": "666",
+	"name": "MOGIELNICA"
+}, {
+	"id": "667",
+	"name": "MOGIELNICA REMIZA"
+}, {
+	"id": "668",
+	"name": "MOGIELNICA REMIZA"
+}, {
+	"id": "669",
+	"name": "MOGIELNICA SZKOŁA"
+}, {
+	"id": "670",
+	"name": "MOGIELNICA SZKOŁA"
+}, {
+	"id": "671",
+	"name": "MOGIELNICA WIEŚ"
+}, {
+	"id": "672",
+	"name": "MOGIELNICA WIEŚ"
+}, {
+	"id": "673",
+	"name": "MOGIELNICA / STARA PĘTLA"
+}, {
+	"id": "674",
+	"name": "MOGIELNICA / STARA PĘTLA"
+}, {
+	"id": "675",
+	"name": "MOGIELNICA WARUNKOWY I"
+}, {
+	"id": "676",
+	"name": "MOGIELNICA WARUNKOWY I"
+}, {
+	"id": "677",
+	"name": "MOGIELNICA PĘTLA"
+}, {
+	"id": "678",
+	"name": "BESKIDZKA SZKOŁA 02"
+}, {
+	"id": "679",
+	"name": "BESKIDZKA SZKOŁA 01"
+}, {
+	"id": "680",
+	"name": "BESKIDZKA 04"
+}, {
+	"id": "681",
+	"name": "BESKIDZKA / KARKONOSKA 03"
+}, {
+	"id": "682",
+	"name": "BESKIDZKA 06"
+}, {
+	"id": "683",
+	"name": "BESKIDZKA 05"
+}, {
+	"id": "684",
+	"name": "BESKIDZKA 08"
+}, {
+	"id": "685",
+	"name": "BESKIDZKA 07"
+}, {
+	"id": "686",
+	"name": "RACŁAWÓWKA PKS"
+}, {
+	"id": "687",
+	"name": "RACŁAWÓWKA PKS"
+}, {
+	"id": "688",
+	"name": "RACŁAWÓWKA SPÓŁDZIELNIA OGR."
+}, {
+	"id": "689",
+	"name": "RACŁAWÓWKA SPÓŁDZIELNIA OGR."
+}, {
+	"id": "690",
+	"name": "RACŁAWÓWKA OSP"
+}, {
+	"id": "691",
+	"name": "RACŁAWÓWKA OSP"
+}, {
+	"id": "692",
+	"name": "RACŁAWÓWKA POCZTA"
+}, {
+	"id": "693",
+	"name": "RACŁAWÓWKA POCZTA"
+}, {
+	"id": "694",
+	"name": "RACŁAWÓWKA SKRZYŻ."
+}, {
+	"id": "695",
+	"name": "RACŁAWÓWKA SKRZYŻ."
+}, {
+	"id": "696",
+	"name": "RACŁAWÓWKA ŁĄKI"
+}, {
+	"id": "697",
+	"name": "RACŁAWÓWKA ŁĄKI"
+}, {
+	"id": "698",
+	"name": "RACŁAWÓWKA"
+}, {
+	"id": "699",
+	"name": "RACŁAWÓWKA"
+}, {
+	"id": "700",
+	"name": "ZABIERZÓW PĘTLA"
+}, {
+	"id": "701",
+	"name": "ZABIERZÓW PĘTLA"
+}, {
+	"id": "702",
+	"name": "KARKONOSKA / BESKIDZKA 02"
+}, {
+	"id": "703",
+	"name": "KARKONOSKA / BESKIDZKA 01"
+}, {
+	"id": "704",
+	"name": "KARKONOSKA 04"
+}, {
+	"id": "705",
+	"name": "KARKONOSKA 03"
+}, {
+	"id": "706",
+	"name": "KARKONOSKA PĘTLA 06"
+}, {
+	"id": "707",
+	"name": "KARKONOSKA PĘTLA 05"
+}, {
+	"id": "708",
+	"name": "RACŁAWÓWKA WIEŚ 30"
+}, {
+	"id": "709",
+	"name": "RACŁAWÓWKA WIEŚ 31"
+}, {
+	"id": "710",
+	"name": "RACŁAWÓWKA DOŁY PĘTLA 28"
+}, {
+	"id": "711",
+	"name": "SŁOCIŃSKA / PILECKICH 08"
+}, {
+	"id": "712",
+	"name": "SŁOCIŃSKA / PILECKICH 07"
+}, {
+	"id": "713",
+	"name": "SŁOCIŃSKA 09"
+}, {
+	"id": "714",
+	"name": "SŁOCIŃSKA 10"
+}, {
+	"id": "715",
+	"name": "MALAWA GRANICA 01"
+}, {
+	"id": "716",
+	"name": "MALAWA GRANICA 01"
+}, {
+	"id": "717",
+	"name": "MALAWA SKRZYŻOWANIE 03"
+}, {
+	"id": "718",
+	"name": "MALAWA SKRZYŻOWANIE 04"
+}, {
+	"id": "719",
+	"name": "MALAWA OSP 05"
+}, {
+	"id": "720",
+	"name": "MALAWA OSP 06"
+}, {
+	"id": "721",
+	"name": "STARONIWSKA SZKOŁA 04"
+}, {
+	"id": "722",
+	"name": "STARONIWSKA SZKOŁA 03"
+}, {
+	"id": "723",
+	"name": "STARONIWSKA KOŚCIÓŁ 06"
+}, {
+	"id": "724",
+	"name": "STARONIWSKA KOŚCIÓŁ 05"
+}, {
+	"id": "725",
+	"name": "STARONIWSKA PĘTLA 12"
+}, {
+	"id": "726",
+	"name": "STARONIWSKA PĘTLA 08"
+}, {
+	"id": "727",
+	"name": "STARONIWSKA PĘTLA 07"
+}, {
+	"id": "728",
+	"name": "STARONIWSKA 14"
+}, {
+	"id": "729",
+	"name": "STARONIWSKA 09"
+}, {
+	"id": "730",
+	"name": "STARONIWSKA / KRESOWA 16"
+}, {
+	"id": "731",
+	"name": "STARONIWSKA / KRESOWA 11"
+}, {
+	"id": "732",
+	"name": "KIELANÓWKA CEGIELNIA 01"
+}, {
+	"id": "733",
+	"name": "KIELANÓWKA CEGIELNIA 02"
+}, {
+	"id": "734",
+	"name": "KIELANÓWKA 03"
+}, {
+	"id": "735",
+	"name": "KIELANÓWKA 04"
+}, {
+	"id": "736",
+	"name": "KIELANÓWKA RUCH 05"
+}, {
+	"id": "737",
+	"name": "KIELANÓWKA RUCH 06"
+}, {
+	"id": "738",
+	"name": "BŁĘKITNE WZGÓRZE / SŁONECZNY STOK 02"
+}, {
+	"id": "739",
+	"name": "BŁĘKITNE WZGÓRZE / SŁONECZNY STOK 01"
+}, {
+	"id": "740",
+	"name": "BŁĘKITNE WZGÓRZE / LEŚNE WZGÓRZE 04"
+}, {
+	"id": "741",
+	"name": "BŁĘKITNE WZGÓRZE / LEŚNE WZGÓRZE 03"
+}, {
+	"id": "742",
+	"name": "KIELANÓWKA POCZTA 11"
+}, {
+	"id": "743",
+	"name": "KIELANÓWKA POCZTA 12"
+}, {
+	"id": "744",
+	"name": "KIELANÓWKA PĘTLA 14"
+}, {
+	"id": "745",
+	"name": "DĘBICKA / KRAKOWSKA 02"
+}, {
+	"id": "746",
+	"name": "DĘBICKA / KRAKOWSKA 01"
+}, {
+	"id": "747",
+	"name": "DĘBICKA KOŚCIÓŁ 04"
+}, {
+	"id": "748",
+	"name": "DĘBICKA KOŚCIÓŁ 03"
+}, {
+	"id": "749",
+	"name": "DĘBICKA / USTRZYCKA 06"
+}, {
+	"id": "750",
+	"name": "DĘBICKA / USTRZYCKA 05"
+}, {
+	"id": "751",
+	"name": "DĘBICKA DOM KULTURY 08"
+}, {
+	"id": "752",
+	"name": "DĘBICKA DOM KULTURY 07"
+}, {
+	"id": "753",
+	"name": "DĘBICKA SZKOŁA 10"
+}, {
+	"id": "754",
+	"name": "DĘBICKA SZKOŁA 09"
+}, {
+	"id": "755",
+	"name": "DĘBICKA / ZŁOCISTA 14"
+}, {
+	"id": "756",
+	"name": "DĘBICKA KAPLICZKA 13"
+}, {
+	"id": "757",
+	"name": "DĘBICKA GRANICA 20"
+}, {
+	"id": "758",
+	"name": "DĘBICKA / DZIAŁOWA 17"
+}, {
+	"id": "759",
+	"name": "DĘBICKA / CICHE WZGÓRZE 16"
+}, {
+	"id": "760",
+	"name": "DĘBICKA / USŁUGOWA 15"
+}, {
+	"id": "761",
+	"name": "DĘBICKA PĘTLA 18"
+}, {
+	"id": "762",
+	"name": "BZIANKA DOM STRAŻAKA"
+}, {
+	"id": "763",
+	"name": "BZIANKA DOM STRAŻAKA"
+}, {
+	"id": "764",
+	"name": "BZIANKA PĘTLA"
+}, {
+	"id": "765",
+	"name": "KRAKOWSKA DWORZYSKO 16"
+}, {
+	"id": "766",
+	"name": "KRAKOWSKA DWORZYSKO 13"
+}, {
+	"id": "767",
+	"name": "KRAKOWSKA GRANICA 18"
+}, {
+	"id": "768",
+	"name": "KRAKOWSKA GRANICA 15"
+}, {
+	"id": "769",
+	"name": "ŚWILCZA NOWY DWÓR 71"
+}, {
+	"id": "770",
+	"name": "ŚWILCZA NOWY DWÓR 62"
+}, {
+	"id": "771",
+	"name": "ŚWILCZA OSIEDLE 73"
+}, {
+	"id": "772",
+	"name": "ŚWILCZA OSIEDLE 60"
+}, {
+	"id": "773",
+	"name": "TRZCIANA, WOLICZKA 77"
+}, {
+	"id": "774",
+	"name": "TRZCIANA, WOLICZKA 56"
+}, {
+	"id": "775",
+	"name": "ŚWILCZA 75"
+}, {
+	"id": "776",
+	"name": "ŚWILCZA 75"
+}, {
+	"id": "777",
+	"name": "TRZCIANA GMINNY OŚRODEK KULTURY 01"
+}, {
+	"id": "778",
+	"name": "TRZCIANA GMINNY OŚRODEK KULTURY 02"
+}, {
+	"id": "779",
+	"name": "KAMYSZYN PĘTLA 04"
+}, {
+	"id": "780",
+	"name": "KAMYSZYN PĘTLA 01"
+}, {
+	"id": "781",
+	"name": "ŚWILCZA PKP 02"
+}, {
+	"id": "782",
+	"name": "ŚWILCZA PKP 01"
+}, {
+	"id": "783",
+	"name": "ŚWILCZA SKLEP 03"
+}, {
+	"id": "784",
+	"name": "ŚWILCZA SKLEP 04"
+}, {
+	"id": "785",
+	"name": "ŚWILCZA 06"
+}, {
+	"id": "786",
+	"name": "ŚWILCZA 05"
+}, {
+	"id": "787",
+	"name": "ZWIĘCZYCKA MPWIK 05"
+}, {
+	"id": "788",
+	"name": "ZWIĘCZYCKA / PODKARPACKA 02"
+}, {
+	"id": "789",
+	"name": "ZWIĘCZYCKA / PODKARPACKA 01"
+}, {
+	"id": "790",
+	"name": "BOGUCHWAŁA SKRZYŻ."
+}, {
+	"id": "791",
+	"name": "ZWIĘCZYCKA 04"
+}, {
+	"id": "792",
+	"name": "JAROWA KOŚCIÓŁ 02"
+}, {
+	"id": "793",
+	"name": "JAROWA KOŚCIÓŁ 01"
+}, {
+	"id": "794",
+	"name": "JAROWA / STAROWIEJSKA 04"
+}, {
+	"id": "795",
+	"name": "JAROWA / STAROWIEJSKA 03"
+}, {
+	"id": "796",
+	"name": "JAROWA / BRZEGOWA 05"
+}, {
+	"id": "797",
+	"name": "JAROWA / BRZEGOWA 06"
+}, {
+	"id": "798",
+	"name": "JAROWA PĘTLA 07"
+}, {
+	"id": "799",
+	"name": "ZAŁĘSKA / RZECHA 04"
+}, {
+	"id": "800",
+	"name": "KRASNE SZKOŁA 01"
+}, {
+	"id": "801",
+	"name": "KRASNE STADION 02"
+}, {
+	"id": "802",
+	"name": "KRASNE SZKOŁA 02"
+}, {
+	"id": "803",
+	"name": "KRASNE KOLONIA I 05"
+}, {
+	"id": "804",
+	"name": "KRASNE KOLONIA I 06"
+}, {
+	"id": "805",
+	"name": "KRASNE KOLONIA II 07"
+}, {
+	"id": "806",
+	"name": "KRASNE KOLONIA II 08"
+}, {
+	"id": "807",
+	"name": "KRASNE KOLONIA III 10"
+}, {
+	"id": "808",
+	"name": "KRASNE KOLONIA III 09"
+}, {
+	"id": "809",
+	"name": "STRAŻÓW I 15"
+}, {
+	"id": "810",
+	"name": "STRAŻÓW I 12"
+}, {
+	"id": "811",
+	"name": "PALIKÓWKA DWORZEC PKP 13"
+}, {
+	"id": "812",
+	"name": "PALIKÓWKA DWORZEC PKP 10"
+}, {
+	"id": "813",
+	"name": "PALIKÓWKA OŚRODEK ZDROWIA 02"
+}, {
+	"id": "814",
+	"name": "PALIKÓWKA OŚRODEK ZDROWIA 01"
+}, {
+	"id": "815",
+	"name": "PALIKÓWKA PRZEDSZKOLE 04"
+}, {
+	"id": "816",
+	"name": "PALIKÓWKA PRZEDSZKOLE 05"
+}, {
+	"id": "817",
+	"name": "PALIKÓWKA STOLARNIA 06"
+}, {
+	"id": "818",
+	"name": "PALIKÓWKA STOLARNIA 03"
+}, {
+	"id": "819",
+	"name": "PALIKÓWKA PĘTLA 08"
+}, {
+	"id": "820",
+	"name": "ŚW. ROCHA 12"
+}, {
+	"id": "821",
+	"name": "ŚW. ROCHA GRANICA 14"
+}, {
+	"id": "822",
+	"name": "ŚW. ROCHA GRANICA 13"
+}, {
+	"id": "823",
+	"name": "CHMIELNIK ŚW. ROCHA - WIELKOPOLSKA 03"
+}, {
+	"id": "824",
+	"name": "CHMIELNIK ŚW. ROCHA - WIELKOPOLSKA 02"
+}, {
+	"id": "825",
+	"name": "CHMIELNIK LISI KĄT 05"
+}, {
+	"id": "826",
+	"name": "CHMIELNIK LISI KĄT 04"
+}, {
+	"id": "827",
+	"name": "CHMIELNIK SZKOŁA 09"
+}, {
+	"id": "828",
+	"name": "CHMIELNIK SZKOŁA 08"
+}, {
+	"id": "829",
+	"name": "CHMIELNIK KOŚCIÓŁ 12"
+}, {
+	"id": "830",
+	"name": "CHMIELNIK KOŚCIÓŁ 13"
+}, {
+	"id": "831",
+	"name": "CHMIELNIK TRAFO 11"
+}, {
+	"id": "832",
+	"name": "CHMIELNIK TRAFO 10"
+}, {
+	"id": "833",
+	"name": "BŁĘDOWA TYCZYŃSKA OŚRODEK ZDROWIA 17"
+}, {
+	"id": "834",
+	"name": "BŁĘDOWA TYCZYŃSKA OŚRODEK ZDROWIA 20"
+}, {
+	"id": "835",
+	"name": "CHMIELNIK MŁYN 11"
+}, {
+	"id": "836",
+	"name": "CHMIELNIK MŁYN 14"
+}, {
+	"id": "837",
+	"name": "CHMIELNIK URZĄD GMINY 09"
+}, {
+	"id": "838",
+	"name": "CHMIELNIK PĘTLA - PAWILON GS 12"
+}, {
+	"id": "839",
+	"name": "CHMIELNIK ZESPÓŁ SZKÓŁ 10"
+}, {
+	"id": "840",
+	"name": "CHMIELNIK K. BUDYNKU NR 118 13"
+}, {
+	"id": "841",
+	"name": "CHMIELNIK K. BUDYNKU NR 118 16"
+}, {
+	"id": "842",
+	"name": "CHMIELNIK SKRZYŻOWANIE 15"
+}, {
+	"id": "843",
+	"name": "ZABRATÓWKA DOM STRAŻAKA 01"
+}, {
+	"id": "844",
+	"name": "BŁĘDOWA TYCZYŃSKA SZKOŁA 19"
+}, {
+	"id": "845",
+	"name": "BŁĘDOWA TYCZYŃSKA SZKOŁA 22"
+}, {
+	"id": "846",
+	"name": "BŁĘDOWA TYCZYŃSKA GS 21"
+}, {
+	"id": "847",
+	"name": "BŁĘDOWA TYCZYŃSKA GS 24"
+}, {
+	"id": "848",
+	"name": "BŁĘDOWA TYCZYŃSKA 23"
+}, {
+	"id": "849",
+	"name": "BŁĘDOWA TYCZYŃSKA 26"
+}, {
+	"id": "850",
+	"name": "SPICHLERZOWA / ZAŁĘSKA 02"
+}, {
+	"id": "851",
+	"name": "SPICHLERZOWA PĘTLA 04"
+}, {
+	"id": "852",
+	"name": "ZAŁĘSKA / BRZOZOWA 12"
+}, {
+	"id": "853",
+	"name": "ZAŁĘSKA / BRZOZOWA 11"
+}, {
+	"id": "854",
+	"name": "SPICHLERZOWA / ZAŁĘSKA 01"
+}, {
+	"id": "855",
+	"name": "ZAŁĘSKA ZAKŁAD KARNY 10"
+}, {
+	"id": "856",
+	"name": "ZAŁĘSKA ZAKŁAD KARNY 08"
+}, {
+	"id": "857",
+	"name": "ZAŁĘSKA ZAKŁAD KARNY 09"
+}, {
+	"id": "858",
+	"name": "ZAŁĘSKA / RZECHA 05"
+}, {
+	"id": "859",
+	"name": "DWORZEC GŁÓWNY PKP 01"
+}, {
+	"id": "860",
+	"name": "RZECHA / ZAŁĘSKA 02"
+}, {
+	"id": "861",
+	"name": "RZECHA / ZAŁĘSKA 01"
+}, {
+	"id": "862",
+	"name": "TRZEBOWNISKO SKRZYŻOWANIE"
+}, {
+	"id": "863",
+	"name": "POGWIZDÓW PĘTLA"
+}, {
+	"id": "864",
+	"name": "POGWIZDÓW"
+}, {
+	"id": "865",
+	"name": "POGWIZDÓW"
+}, {
+	"id": "866",
+	"name": "BARDOWSKIEGO 02"
+}, {
+	"id": "867",
+	"name": "KRASNE AUCHAN 64"
+}, {
+	"id": "868",
+	"name": "KRASNE AUCHAN 64"
+}, {
+	"id": "869",
+	"name": "KRASNE ZAKRĘT 04"
+}, {
+	"id": "870",
+	"name": "KRASNE ZAKRĘT 03"
+}, {
+	"id": "871",
+	"name": "USTRZYCKA PĘTLA 01"
+}, {
+	"id": "872",
+	"name": "KOTULI / USTRZYCKA 02"
+}, {
+	"id": "873",
+	"name": "KOTULI / SOLARZA 01"
+}, {
+	"id": "874",
+	"name": "KOTULI DOMKI 04"
+}, {
+	"id": "875",
+	"name": "KOTULI / ZBYSZEWSKIEGO 03"
+}, {
+	"id": "876",
+	"name": "BUDZIWOJSKA / JANA PAWŁA II 10"
+}, {
+	"id": "877",
+	"name": "JANA PAWŁA II / BUDZIWOJSKA 15"
+}, {
+	"id": "878",
+	"name": "POSELSKA PĘTLA 02"
+}, {
+	"id": "879",
+	"name": "POSELSKA PĘTLA 01"
+}, {
+	"id": "880",
+	"name": "PODLEŚNA 02"
+}, {
+	"id": "881",
+	"name": "PODLEŚNA 01"
+}, {
+	"id": "882",
+	"name": "PODLEŚNA 06"
+}, {
+	"id": "883",
+	"name": "PODLEŚNA 05"
+}, {
+	"id": "884",
+	"name": "NOWA WIEŚ ZACZERSKA GRANICA"
+}, {
+	"id": "885",
+	"name": "NOWA WIEŚ ZACZERSKA GRANICA"
+}, {
+	"id": "886",
+	"name": "JASIONKA OŚRODEK SZKOL."
+}, {
+	"id": "887",
+	"name": "TYCZYN GRUNWALDZKA PARK 01"
+}, {
+	"id": "888",
+	"name": "BUDZIWOJSKA 16"
+}, {
+	"id": "889",
+	"name": "ZACZERNIE GÓRKA"
+}, {
+	"id": "890",
+	"name": "ZACZERNIE GÓRKA"
+}, {
+	"id": "891",
+	"name": "TRZEBOWNISKO Z-D OGRODNICZY"
+}, {
+	"id": "892",
+	"name": "OLBRACHTA / ŚW. KINGI 08"
+}, {
+	"id": "893",
+	"name": "OLBRACHTA / ŚW. KINGI 07"
+}, {
+	"id": "894",
+	"name": "MIKOŁAJCZYKA PĘTLA 01"
+}, {
+	"id": "895",
+	"name": "JASIONKA"
+}, {
+	"id": "896",
+	"name": "JASIONKA"
+}, {
+	"id": "897",
+	"name": "TAJĘCINA VAC AERO PĘTLA"
+}, {
+	"id": "898",
+	"name": "TAJĘCINA II"
+}, {
+	"id": "899",
+	"name": "TAJĘCINA II"
+}, {
+	"id": "900",
+	"name": "TAJĘCINA"
+}, {
+	"id": "901",
+	"name": "BŁ. KAROLINY / SANOCKA 03"
+}, {
+	"id": "902",
+	"name": "BŁ. KAROLINY / SANOCKA 04"
+}, {
+	"id": "903",
+	"name": "CHMIELNIK SKRZYŻOWANIE 18"
+}, {
+	"id": "904",
+	"name": "KARD. K .WOJTYŁY 01"
+}, {
+	"id": "905",
+	"name": "KARD. K. WOJTYŁY 02"
+}, {
+	"id": "906",
+	"name": "PIŁSUDSKIEGO U. MARSZAŁKOWSKI 05"
+}, {
+	"id": "907",
+	"name": "MYŚLIWSKA / ŚW. HUBERTA 02"
+}, {
+	"id": "908",
+	"name": "ARMII KRAJOWEJ / KRZYŻANOWSKIEGO 03"
+}, {
+	"id": "909",
+	"name": "PLENEROWA PRZEDSZKOLE 01"
+}, {
+	"id": "910",
+	"name": "PLENEROWA PRZEDSZKOLE 02"
+}, {
+	"id": "911",
+	"name": "SIKORSKIEGO PĘTLA 20"
+}, {
+	"id": "912",
+	"name": "WITOSA / PANORAMICZNA 01"
+}, {
+	"id": "913",
+	"name": "STARONIWSKA / RZEMIEŚLNICZA 01"
+}, {
+	"id": "914",
+	"name": "TRZCIANA SKLEP 03"
+}, {
+	"id": "915",
+	"name": "TRZCIANA SKLEP 02"
+}, {
+	"id": "916",
+	"name": "TRZCIANA PĘTLA 05"
+}, {
+	"id": "917",
+	"name": "ŚWILCZA 58"
+}, {
+	"id": "918",
+	"name": "DĘBICKA / STADIONOWA 12"
+}, {
+	"id": "919",
+	"name": "DĘBICKA / STADIONOWA 11"
+}, {
+	"id": "920",
+	"name": "TRZCIANA FIRMY"
+}, {
+	"id": "921",
+	"name": "TRZCIANA FIRMY"
+}, {
+	"id": "922",
+	"name": "ŁUKAWIEC ZA SZKOŁĄ"
+}, {
+	"id": "923",
+	"name": "TERLICZKA PĘTLA"
+}, {
+	"id": "924",
+	"name": "TERLICZKA MOSTEK"
+}, {
+	"id": "925",
+	"name": "KRASNE AUCHAN 64"
+}, {
+	"id": "926",
+	"name": "LISA - KULI GALERIA 01"
+}, {
+	"id": "927",
+	"name": "KRACZKOWA GÓRNA"
+}, {
+	"id": "928",
+	"name": "KRACZKOWA GÓRNA"
+}, {
+	"id": "929",
+	"name": "KRACZKOWA TŁOKI"
+}, {
+	"id": "930",
+	"name": "KRACZKOWA TŁOKI"
+}, {
+	"id": "931",
+	"name": "KRACZKOWA DOLNA"
+}, {
+	"id": "932",
+	"name": "KRACZKOWA DOLNA"
+}, {
+	"id": "933",
+	"name": "ŁAŃCUT GRABSKIE"
+}, {
+	"id": "934",
+	"name": "ŁAŃCUT GRABSKIE"
+}, {
+	"id": "935",
+	"name": "ŁAŃCUT UL.PIŁSUDSKIEGO"
+}, {
+	"id": "936",
+	"name": "ŁAŃCUT UL.PIŁSUDSKIEGO"
+}, {
+	"id": "937",
+	"name": "ŁAŃCUT MDK"
+}, {
+	"id": "938",
+	"name": "ŁAŃCUT UL.KOŚCIUSZKI"
+}, {
+	"id": "939",
+	"name": "ŁAŃCUT UL.KOŚCIUSZKI"
+}, {
+	"id": "940",
+	"name": "ŁAŃCUT UL.A.KRAJOWEJ"
+}, {
+	"id": "941",
+	"name": "ŁAŃCUT UL.A.KRAJOWEJ"
+}, {
+	"id": "942",
+	"name": "ŁAŃCUT UL.GEN.MACZKA"
+}, {
+	"id": "943",
+	"name": "ŁAŃCUT UL.GEN.MACZKA"
+}, {
+	"id": "944",
+	"name": "MEDYNIA ŁAŃCUCKA SKRZYŻ."
+}, {
+	"id": "945",
+	"name": "MEDYNIA ŁAŃCUCKA SKRZYŻ."
+}, {
+	"id": "946",
+	"name": "MEDYNIA ŁAŃCUCKA PKS"
+}, {
+	"id": "947",
+	"name": "MEDYNIA GŁOGOWSKA PĘTLA"
+}, {
+	"id": "948",
+	"name": "MEDYNIA GŁOGOWSKA PKS I"
+}, {
+	"id": "949",
+	"name": "MEDYNIA GŁOGOWSKA PKS I"
+}, {
+	"id": "950",
+	"name": "MEDYNIA GŁOGOWSKA WIEŚ"
+}, {
+	"id": "951",
+	"name": "MEDYNIA GŁOGOWSKA WIEŚ"
+}, {
+	"id": "952",
+	"name": "MEDYNIA GŁOGOWSKA PKS II"
+}, {
+	"id": "953",
+	"name": "MEDYNIA GŁOGOWSKA PKS II"
+}, {
+	"id": "954",
+	"name": "MEDYNIA GŁOGOWSKA \"ZADWÓR\""
+}, {
+	"id": "955",
+	"name": "MEDYNIA GŁOGOWSKA"
+}, {
+	"id": "956",
+	"name": "MEDYNIA ŁAŃCUCKA"
+}, {
+	"id": "957",
+	"name": "POGWIZDÓW SZKOŁA"
+}, {
+	"id": "958",
+	"name": "ZWIĘCZYCKA 03"
+}, {
+	"id": "959",
+	"name": "BARDOWSKIEGO 03"
+}, {
+	"id": "960",
+	"name": "ZAJEZDNIA MPK"
+}, {
+	"id": "961",
+	"name": "LUBELSKA ZAJEZDNIA MPK"
+}, {
+	"id": "962",
+	"name": "JASIONKA SZKOŁA"
+}, {
+	"id": "963",
+	"name": "TRZCIANA 79"
+}, {
+	"id": "964",
+	"name": "TRZCIANA 54"
+}, {
+	"id": "965",
+	"name": "POGWIZDÓW SZKOŁA"
+}, {
+	"id": "966",
+	"name": "ŁĄKA SKRZYŻ."
+}, {
+	"id": "967",
+	"name": "BRATKOWICE CZEKAJ 03"
+}, {
+	"id": "968",
+	"name": "BRATKOWICE CZEKAJ 04"
+}, {
+	"id": "969",
+	"name": "BRATKOWICE CIENIAKI 05"
+}, {
+	"id": "970",
+	"name": "BRATKOWICE CIENIAKI 06"
+}, {
+	"id": "971",
+	"name": "BRATKOWICE KLEPAK 07"
+}, {
+	"id": "972",
+	"name": "BRATKOWICE KLEPAK 08"
+}, {
+	"id": "973",
+	"name": "BRATKOWICE SZKOŁA 10"
+}, {
+	"id": "974",
+	"name": "BRATKOWICE SZKOŁA 09"
+}, {
+	"id": "975",
+	"name": "BRATKOWICE SITKÓWKA 05"
+}, {
+	"id": "976",
+	"name": "BRATKOWICE SITKÓWKA 06"
+}, {
+	"id": "977",
+	"name": "BRATKOWICE PIASKI I 03"
+}, {
+	"id": "978",
+	"name": "BRATKOWICE PIASKI I 04"
+}, {
+	"id": "979",
+	"name": "BRATKOWICE PIASKI 02"
+}, {
+	"id": "980",
+	"name": "BRATKOWICE PIASKI 01"
+}, {
+	"id": "981",
+	"name": "BRATKOWICE OTOKA 12"
+}, {
+	"id": "982",
+	"name": "BRATKOWICE OTOKA 11"
+}, {
+	"id": "983",
+	"name": "MROWLA I 14"
+}, {
+	"id": "984",
+	"name": "MROWLA I 13"
+}, {
+	"id": "985",
+	"name": "MROWLA II 16"
+}, {
+	"id": "986",
+	"name": "MROWLA II 15"
+}, {
+	"id": "987",
+	"name": "RUDNA WIELKA DOM LUDOWY 20"
+}, {
+	"id": "988",
+	"name": "TYCZYN MICKIEWICZA 01"
+}, {
+	"id": "989",
+	"name": "TYCZYN POCZĄTEK"
+}, {
+	"id": "990",
+	"name": "TYCZYN POCZĄTEK"
+}, {
+	"id": "991",
+	"name": "HERMANOWA"
+}, {
+	"id": "992",
+	"name": "HERMANOWA"
+}, {
+	"id": "993",
+	"name": "HERMANOWA SZKOŁA"
+}, {
+	"id": "994",
+	"name": "HERMANOWA SZKOŁA"
+}, {
+	"id": "995",
+	"name": "HERMANOWA SKRZYŻOWANIE"
+}, {
+	"id": "996",
+	"name": "HERMANOWA SKRZYŻOWANIE"
+}, {
+	"id": "997",
+	"name": "HERMANOWA GÓRA"
+}, {
+	"id": "998",
+	"name": "HERMANOWA GÓRA"
+}, {
+	"id": "999",
+	"name": "HERMANOWA PKS I"
+}, {
+	"id": "1000",
+	"name": "HERMANOWA PKS I"
+}, {
+	"id": "1001",
+	"name": "HERMANOWA PKS II"
+}, {
+	"id": "1002",
+	"name": "HERMANOWA PKS II"
+}, {
+	"id": "1003",
+	"name": "HERMANOWA PĘTLA"
+}, {
+	"id": "1004",
+	"name": "TYCZYN KOPERNIKA 02"
+}, {
+	"id": "1005",
+	"name": "USTRZYCKA PĘTLA 02"
+}, {
+	"id": "1006",
+	"name": "USTRZYCKA 03"
+}, {
+	"id": "1007",
+	"name": "USTRZYCKA 04"
+}, {
+	"id": "1008",
+	"name": "HERMANOWA GÓRA"
+}, {
+	"id": "1009",
+	"name": "HERMANOWA LEŚNICZÓWKA"
+}, {
+	"id": "1010",
+	"name": "OFIAR KATYNIA GALERIA 06"
+}, {
+	"id": "1011",
+	"name": "OFIAR KATYNIA PARK 03"
+}, {
+	"id": "1012",
+	"name": "WITOSA / WIKTORA 03"
+}, {
+	"id": "1013",
+	"name": "TERLICZKA MOSTEK"
+}, {
+	"id": "1014",
+	"name": "WOLA CICHA ZA TORAMI"
+}, {
+	"id": "1015",
+	"name": "ROGOŹNICA META-ZEL"
+}, {
+	"id": "1016",
+	"name": "ROGOŹNICA META-ZEL"
+}, {
+	"id": "1017",
+	"name": "BŁ. KAROLINY 09"
+}, {
+	"id": "1018",
+	"name": "BŁ. KAROLINY / NOWOSĄDECKA 05"
+}, {
+	"id": "1019",
+	"name": "ARMII KRAJOWEJ PARK PAPIESKI 01"
+}, {
+	"id": "1020",
+	"name": "POTOCKIEGO / STĄCZKA 02"
+}, {
+	"id": "1021",
+	"name": "TRZEBOWNISKO SKRZYŻOWANIE II"
+}, {
+	"id": "1022",
+	"name": "TRZEBOWNISKO SKRZYŻOWANIE II"
+}, {
+	"id": "1023",
+	"name": "BÓR I"
+}, {
+	"id": "1024",
+	"name": "PRZEMYSŁOWA U. CELNY 06"
+}, {
+	"id": "1025",
+	"name": "RUDNA WIELKA I 01"
+}, {
+	"id": "1026",
+	"name": "RUDNA WIELKA DOM STRAŻAKA 18"
+}, {
+	"id": "1027",
+	"name": "KRASNE WÓLKA"
+}, {
+	"id": "1028",
+	"name": "RUDNA WIELKA I 02"
+}, {
+	"id": "1029",
+	"name": "RUDNA WIELKA DOM LUDOWY 19"
+}, {
+	"id": "1030",
+	"name": "RUDNA WIELKA ZAKRĘT 03"
+}, {
+	"id": "1031",
+	"name": "HUCISKO"
+}, {
+	"id": "1032",
+	"name": "STYKÓW"
+}, {
+	"id": "1033",
+	"name": "STYKÓW"
+}, {
+	"id": "1034",
+	"name": "POGWIZDÓW STARY"
+}, {
+	"id": "1035",
+	"name": "WYSOKA GŁOGOWSKA POCZTA"
+}, {
+	"id": "1036",
+	"name": "WYSOKA GŁOGOWSKA POCZTA"
+}, {
+	"id": "1037",
+	"name": "PRZEWROTNE"
+}, {
+	"id": "1038",
+	"name": "BUDY GŁOGOWSKIE PĘTLA"
+}, {
+	"id": "1039",
+	"name": "BUDZIWOJSKA SZKOŁA 12"
+}, {
+	"id": "1040",
+	"name": "BUDZIWOJSKA CMENTARZ 09"
+}, {
+	"id": "1041",
+	"name": "MALAWA SZKOŁA 07"
+}, {
+	"id": "1042",
+	"name": "MALAWA SZKOŁA 08"
+}, {
+	"id": "1043",
+	"name": "MALAWA GÓRA PĘTLA 13"
+}, {
+	"id": "1044",
+	"name": "MALAWA DOLNA 04"
+}, {
+	"id": "1045",
+	"name": "MALAWA DOLNA 03"
+}, {
+	"id": "1046",
+	"name": "MALAWA PĘTLA II 12"
+}, {
+	"id": "1047",
+	"name": "MALAWA PĘTLA II 11"
+}, {
+	"id": "1048",
+	"name": "TAJĘCINA VAC AERO PĘTLA"
+}, {
+	"id": "1049",
+	"name": "TAJĘCINA VAC AERO PĘTLA"
+}, {
+	"id": "1050",
+	"name": "ARCHITEKTÓW 03"
+}, {
+	"id": "1051",
+	"name": "ARCHITEKTÓW 01"
+}, {
+	"id": "1052",
+	"name": "ARCHITEKTÓW 02"
+}, {
+	"id": "1053",
+	"name": "KRASNE SKRZYŻ. E40 02"
+}, {
+	"id": "1054",
+	"name": "KRASNE SKRZYŻ. E40 01"
+}, {
+	"id": "1055",
+	"name": "MALAWA KOŚCIÓŁ 09"
+}, {
+	"id": "1056",
+	"name": "MALAWA KOŚCIÓŁ 10"
+}, {
+	"id": "1057",
+	"name": "MARSZAŁKOWSKA RONDO 03"
+}, {
+	"id": "1058",
+	"name": "LUBELSKA / WYZWOLENIA 04"
+}, {
+	"id": "1059",
+	"name": "DĄBROWSKIEGO KOŚCIÓŁ 06"
+}, {
+	"id": "1060",
+	"name": "DĄBROWSKIEGO KOŚCIÓŁ 05"
+}, {
+	"id": "1061",
+	"name": "ŻOŁNIERZY 9 DYW. PIECHOTY 01"
+}, {
+	"id": "1062",
+	"name": "ŻOŁNIERZY 9 DYW. PIECHOTY 02"
+}, {
+	"id": "1063",
+	"name": "DWORZEC LOKALNY"
+}, {
+	"id": "1064",
+	"name": "KRASNE WÓLKA"
+}, {
+	"id": "1065",
+	"name": "KRASNE STADION 01"
+}, {
+	"id": "1066",
+	"name": "KRASNE STADION 02"
+}, {
+	"id": "1067",
+	"name": "KRASNE 06"
+}, {
+	"id": "1068",
+	"name": "KRASNE 05"
+}, {
+	"id": "1069",
+	"name": "KRASNE SKRZYŻOWANIE 04"
+}, {
+	"id": "1070",
+	"name": "ARMII KRAJOWEJ SKARBIEC 07"
+}, {
+	"id": "1071",
+	"name": "ARMII KRAJOWEJ PARK PAPIESKI 02"
+}, {
+	"id": "1072",
+	"name": "KRAKOWSKA / ARYSTOKRACKA 17"
+}, {
+	"id": "1073",
+	"name": "LUBELSKA / WYZWOLENIA 03"
+}, {
+	"id": "1074",
+	"name": "POWST. WARSZAWY STADION 05"
+}, {
+	"id": "1075",
+	"name": "REJTANA 08"
+}, {
+	"id": "1076",
+	"name": "REJTANA / KUSTRONIA 03"
+}, {
+	"id": "1077",
+	"name": "WINCENTEGO POLA POLITECHNIKA 02"
+}, {
+	"id": "1078",
+	"name": "POGWIZDÓW NOWY OSIEDLE 25"
+}, {
+	"id": "1079",
+	"name": "POGWIZDÓW NOWY OSIEDLE 26"
+}, {
+	"id": "1080",
+	"name": "BŁ. KAROLINY PRZEDSZKOLE 07"
+}, {
+	"id": "1081",
+	"name": "BŁ. KAROLINY PRZEDSZKOLE 06"
+}, {
+	"id": "1082",
+	"name": "KILARA 02"
+}, {
+	"id": "1083",
+	"name": "KILARA 01"
+}, {
+	"id": "1084",
+	"name": "SŁOWACKIEGO - RYNEK"
+}, {
+	"id": "1085",
+	"name": "SŁOWACKIEGO - RYNEK"
+}, {
+	"id": "1086",
+	"name": "ROGOŹNICA ELMAT"
+}, {
+	"id": "1087",
+	"name": "ROGOŹNICA EFEKT PLUS/D.A. GLASS"
+}, {
+	"id": "1088",
+	"name": "ROGOŹNICA EFEKT PLUS/D.A. GLASS"
+}, {
+	"id": "1089",
+	"name": "ROGOŹNICA FARMACOL PĘTLA"
+}, {
+	"id": "1090",
+	"name": "ROGOŹNICA LEO MINOR"
+}, {
+	"id": "1091",
+	"name": "ROGOŹNICA LEO MINOR"
+}, {
+	"id": "1092",
+	"name": "ROGOŹNICA BSH B"
+}, {
+	"id": "1093",
+	"name": "ROGOŹNICA BSH B"
+}, {
+	"id": "1094",
+	"name": "ROGOŹNICA ZELMER A"
+}, {
+	"id": "1095",
+	"name": "ROGOŹNICA ZELMER A"
+}, {
+	"id": "1096",
+	"name": "ROGOŹNICA LEDOLUX"
+}, {
+	"id": "1097",
+	"name": "ROGOŹNICA LEDOLUX"
+}, {
+	"id": "1098",
+	"name": "ROGOŹNICA YANKO"
+}, {
+	"id": "1099",
+	"name": "ROGOŹNICA YANKO"
+}, {
+	"id": "1100",
+	"name": "ROGOŹNICA PKP"
+}, {
+	"id": "1101",
+	"name": "ROGOŹNICA PKP"
+}, {
+	"id": "1102",
+	"name": "JASIONKA - PORT LOTNICZY"
+}, {
+	"id": "1103",
+	"name": "TAJĘCINA MTU AERO ENGINES 04"
+}, {
+	"id": "1104",
+	"name": "TAJĘCINA MTU AERO ENGINES 05"
+}, {
+	"id": "1105",
+	"name": "TAJĘCINA GOODRICH/OPTEAM 02"
+}, {
+	"id": "1106",
+	"name": "TAJĘCINA GOODRICH/OPTEAM 01"
+}, {
+	"id": "1107",
+	"name": "JASIONKA BORG WARNER TS"
+}, {
+	"id": "1108",
+	"name": "JASIONKA BORG WARNER TS"
+}, {
+	"id": "1109",
+	"name": "SIEDLISKA 12"
+}, {
+	"id": "1110",
+	"name": "SIEDLISKA 11"
+}, {
+	"id": "1111",
+	"name": "SIEDLISKA KOŚCIÓŁ 10"
+}, {
+	"id": "1112",
+	"name": "SIEDLISKA KOŚCIÓŁ 09"
+}, {
+	"id": "1113",
+	"name": "SIEDLISKA OŚRODEK ZDROWIA 07"
+}, {
+	"id": "1114",
+	"name": "SIEDLISKA OŚRODEK ZDROWIA 08"
+}, {
+	"id": "1115",
+	"name": "SIEDLISKA SKRZYŻOWANIE II 05"
+}, {
+	"id": "1116",
+	"name": "SIEDLISKA SKRZYŻOWANIE II 06"
+}, {
+	"id": "1117",
+	"name": "BUDZIWOJSKA / POSELSKA 15"
+}, {
+	"id": "1118",
+	"name": "USTRZYCKA MOSTEK 05"
+}, {
+	"id": "1119",
+	"name": "BOGUCHWAŁA 97"
+}, {
+	"id": "1120",
+	"name": "MALAWA ZBIORNIK"
+}, {
+	"id": "1121",
+	"name": "MALAWA ZBIORNIK"
+}, {
+	"id": "1122",
+	"name": "SIEDLISKA SMOLNA 03"
+}, {
+	"id": "1123",
+	"name": "SIEDLISKA SMOLNA 04"
+}, {
+	"id": "1124",
+	"name": "SIEDLISKA SKRZYŻOWANIE I 01"
+}, {
+	"id": "1125",
+	"name": "SIEDLISKA SKRZYŻOWANIE I 02"
+}, {
+	"id": "1126",
+	"name": "LUBENIA DÓŁ 01"
+}, {
+	"id": "1127",
+	"name": "LUBENIA DÓŁ 02"
+}, {
+	"id": "1128",
+	"name": "LUBENIA ZAPORA 03"
+}, {
+	"id": "1129",
+	"name": "LUBENIA ZAPORA 04"
+}, {
+	"id": "1130",
+	"name": "LUBENIA OŚRODEK ZDROWIA 06"
+}, {
+	"id": "1131",
+	"name": "LUBENIA OŚRODEK ZDROWIA 05"
+}, {
+	"id": "1132",
+	"name": "LUBENIA 07"
+}, {
+	"id": "1133",
+	"name": "LUBENIA 08"
+}, {
+	"id": "1134",
+	"name": "LUBENIA GÓRA 09"
+}, {
+	"id": "1135",
+	"name": "LUBENIA GÓRA 10"
+}, {
+	"id": "1136",
+	"name": "STRASZYDLE SKRZYŻOWANIE 13"
+}, {
+	"id": "1137",
+	"name": "MIŁOCIŃSKA SZKOŁA 02"
+}, {
+	"id": "1138",
+	"name": "WINCENTEGO POLA POLITECHNIKA 01"
+}, {
+	"id": "1139",
+	"name": "ZAWISZY CZARNEGO / PODGÓRSKA 02"
+}, {
+	"id": "1140",
+	"name": "ZAWISZY CZARNEGO / PODGÓRSKA 01"
+}, {
+	"id": "1141",
+	"name": "ZAWISZY CZARNEGO 04"
+}, {
+	"id": "1142",
+	"name": "ZAWISZY CZARNEGO 03"
+}, {
+	"id": "1143",
+	"name": "BARDOWSKIEGO 01"
+}, {
+	"id": "1144",
+	"name": "HERMANOWA PRZYLASEK 04"
+}, {
+	"id": "1145",
+	"name": "HERMANOWA PRZYLASEK 05"
+}, {
+	"id": "1146",
+	"name": "CIEPŁOWNICZA ELEKTROCIEPŁOWNIA 04"
+}, {
+	"id": "1147",
+	"name": "KRASNE WÓLKA II"
+}, {
+	"id": "1148",
+	"name": "KRASNE WÓLKA II"
+}, {
+	"id": "1149",
+	"name": "POWST. WARSZAWY STADION 06"
+}, {
+	"id": "1150",
+	"name": "DĄBROWSKIEGO WYDZIAŁ MUZYKI 07"
+}, {
+	"id": "1151",
+	"name": "ŚW. ROCHA / ŚW. WALENTEGO 10"
+}, {
+	"id": "1152",
+	"name": "ZAŁĘSKA 04"
+}, {
+	"id": "1153",
+	"name": "ZAŁĘSKA 05"
+}, {
+	"id": "1154",
+	"name": "RZECHA 04"
+}, {
+	"id": "1155",
+	"name": "CIEPŁOWNICZA STACJA PALIW 02"
+}, {
+	"id": "1156",
+	"name": "RZECHA STACJA PALIW 03"
+}, {
+	"id": "1157",
+	"name": "CIEPŁOWNICZA MPGK 04"
+}, {
+	"id": "1158",
+	"name": "CIEPŁOWNICZA ELEKTROCIEPŁOWNIA 06"
+}, {
+	"id": "1159",
+	"name": "JANA PAWŁA II DOM SENIORA 06"
+}, {
+	"id": "1160",
+	"name": "JANA PAWŁA II DOM SENIORA 05"
+}, {
+	"id": "1161",
+	"name": "ZAŁĘSKA / BRZOZOWA 10"
+}, {
+	"id": "1162",
+	"name": "ZAŁĘSKA / BRZOZOWA 09"
+}, {
+	"id": "1163",
+	"name": "ZAŁĘSKA ZAKŁAD KARNY 08"
+}, {
+	"id": "1164",
+	"name": "ZAŁĘSKA ZAKŁAD KARNY 06"
+}, {
+	"id": "1165",
+	"name": "ZAŁĘSKA ZAKŁAD KARNY 07"
+}, {
+	"id": "1166",
+	"name": "RZECHA / CIEPŁOWNICZA 06"
+}, {
+	"id": "1167",
+	"name": "RZECHA / LUBELSKA 08"
+}, {
+	"id": "1168",
+	"name": "RZECHA / LUBELSKA 05"
+}, {
+	"id": "1170",
+	"name": "POWST. WARSZAWY STADION 05"
+}, {
+	"id": "1171",
+	"name": "KRASNE WÓLKA"
+}, {
+	"id": "1172",
+	"name": "KRASNE WÓLKA"
+}, {
+	"id": "1173",
+	"name": "RUDNA WIELKA DOM STRAŻAKA 17"
+}, {
+	"id": "1174",
+	"name": "RUDNA WIELKA ZAKRĘT 04"
+}, {
+	"id": "1175",
+	"name": "WYSPIAŃSKIEGO / STRZELNICZA 03"
+}, {
+	"id": "1176",
+	"name": "MALAWA GRANICA 02"
+}, {
+	"id": "1182",
+	"name": "TRZEBOWNISKO 02"
+}, {
+	"id": "1183",
+	"name": "TRZEBOWNISKO 27"
+}, {
+	"id": "1184",
+	"name": "TRZEBOWNISKO MLECZARNIA 04"
+}, {
+	"id": "1185",
+	"name": "TRZEBOWNISKO MLECZARNIA 25"
+}, {
+	"id": "1186",
+	"name": "TRZEBOWNISKO PŁYWALNIA 23"
+}, {
+	"id": "1187",
+	"name": "TRZEBOWNISKO PŁYWALNIA 06"
+}, {
+	"id": "1188",
+	"name": "NOWA WIEŚ 21"
+}, {
+	"id": "1189",
+	"name": "NOWA WIEŚ 08"
+}, {
+	"id": "1194",
+	"name": "JASIONKA, POKAZY LOTNICZE"
+}, {
+	"id": "1195",
+	"name": "JASIONKA PARKING 1"
+}, {
+	"id": "1196",
+	"name": "JASIONKA PARKING 2"
+}, {
+	"id": "1197",
+	"name": "JASIONKA PARKING 3"
+}, {
+	"id": "1198",
+	"name": "JASIONKA PARKING 4"
+}, {
+	"id": "1199",
+	"name": "JASIONKA PARKING 5"
+}, {
+	"id": "1200",
+	"name": "JASIONKA POKAZY LOTNICZE (2)"
+}, {
+	"id": "1201",
+	"name": "PARKING GIEŁDY SAMOCHODOWEJ"
+}, {
+	"id": "1202",
+	"name": "MIŁOCIN TORY 01"
+}, {
+	"id": "1203",
+	"name": "ZACZERNIE POGWIZDÓW NOWY 05"
+}, {
+	"id": "1204",
+	"name": "MIŁOCIN 03"
+}, {
+	"id": "1205",
+	"name": "MIŁOCIN 60"
+}, {
+	"id": "1207",
+	"name": "ZACZERNIE 56"
+}, {
+	"id": "1208",
+	"name": "ZACZERNIE BROWAR 15"
+}, {
+	"id": "1209",
+	"name": "ZACZERNIE BROWAR 16"
+}, {
+	"id": "1211",
+	"name": "ZACZERNIE II 18"
+}, {
+	"id": "1212",
+	"name": "WYWROCKIEGO 02"
+}, {
+	"id": "1213",
+	"name": "WYWROCKIEGO / JAGODOWA 01"
+}, {
+	"id": "1214",
+	"name": "WYWROCKIEGO / JAGODOWA 04"
+}, {
+	"id": "1215",
+	"name": "WYWROCKIEGO / POTOKOWA 03"
+}, {
+	"id": "1216",
+	"name": "WYWROCKIEGO / POTOKOWA 06"
+}, {
+	"id": "1217",
+	"name": "ZACZERNIE 14"
+}, {
+	"id": "1218",
+	"name": "ZACZERNIE ML SYSTEM / FIBRAIN 03"
+}, {
+	"id": "1219",
+	"name": "ZACZERNIE CYFROWAFOTO 02"
+}, {
+	"id": "1220",
+	"name": "ZACZERNIE CYFROWAFOTO 01"
+}, {
+	"id": "1221",
+	"name": "ZACZERNIE POGWIZDÓW NOWY 58"
+}, {
+	"id": "1222",
+	"name": "WARSZAWSKA / ŁOWIECKA 10"
+}, {
+	"id": "1223",
+	"name": "WYWROCKIEGO RONDO 08"
+}, {
+	"id": "1224",
+	"name": "JASIONKA CWK"
+}, {
+	"id": "1229",
+	"name": "ZACZERNIE CMENTARZ 17"
+}, {
+	"id": "1230",
+	"name": "ZACZERNIE BLOKI 20"
+}, {
+	"id": "1231",
+	"name": "ZACZERNIE BLOKI 19"
+}, {
+	"id": "1232",
+	"name": "STRAŻACKA 08"
+}, {
+	"id": "1233",
+	"name": "STRAŻACKA / SYMPATYCZNA 06"
+}, {
+	"id": "1234",
+	"name": "STRAŻACKA / UROCZA 04"
+}, {
+	"id": "1242",
+	"name": "PODGÓRSKA TORY 03"
+}, {
+	"id": "1243",
+	"name": "ZAWISZY CZARNEGO SKRZYŻOWANIE 01"
+}, {
+	"id": "1244",
+	"name": "DĘBICKA / LEŚNE WZGÓRZE 20"
+}, {
+	"id": "1245",
+	"name": "DĘBICKA / ŚW. JAKUBA 22"
+}, {
+	"id": "1246",
+	"name": "DĘBICKA / ŚW. JAKUBA 19"
+}, {
+	"id": "1247",
+	"name": "KALINOWA PĘTLA 02"
+}, {
+	"id": "1249",
+	"name": "TYCZYN MICKIEWICZA KAPLICZKA 03"
+}, {
+	"id": "1250",
+	"name": "TYCZYN LASEK 05"
+}, {
+	"id": "1251",
+	"name": "TYCZYN LASEK II 07"
+}, {
+	"id": "1252",
+	"name": "TYCZYN MICKIEWICZA KAPLICZKA 04"
+}, {
+	"id": "1253",
+	"name": "TYCZYN LASEK 06"
+}, {
+	"id": "1254",
+	"name": "TYCZYN LASEK II 08"
+}, {
+	"id": "1255",
+	"name": "KRÓLKA PĘTLA 10"
+}, {
+	"id": "1256",
+	"name": "KRASNE AUCHAN 01"
+}, {
+	"id": "1258",
+	"name": "SŁOCIŃSKA PĘTLA 11"
+}, {
+	"id": "1259",
+	"name": "USTRZYCKA 05"
+}, {
+	"id": "1260",
+	"name": "USTRZYCKA 06"
+}, {
+	"id": "1261",
+	"name": "USTRZYCKA MOSTEK 07"
+}, {
+	"id": "1262",
+	"name": "DWORAKA TARG 01"
+}, {
+	"id": "1263",
+	"name": "SOLARZA 01"
+}, {
+	"id": "1264",
+	"name": "SOLARZA 02"
+}, {
+	"id": "1265",
+	"name": "USTRZYCKA / WADOWICKA 04"
+}, {
+	"id": "1266",
+	"name": "USTRZYCKA / WADOWICKA 03"
+}, {
+	"id": "1267",
+	"name": "SIECIECHA / ZAŁĘSKA 02"
+}, {
+	"id": "1268",
+	"name": "SIECIECHA / ZAŁĘSKA 01"
+}, {
+	"id": "1269",
+	"name": "NOWA WIEŚ PORT LOTNICZY 48"
+}, {
+	"id": "1270",
+	"name": "NOWA WIEŚ PORT LOTNICZY 37"
+}, {
+	"id": "1271",
+	"name": "JASIONKA CWK"
+}, {
+	"id": "1272",
+	"name": "IWONICKA / KORCZYŃSKA 01"
+}, {
+	"id": "1273",
+	"name": "IWONICKA / KORCZYŃSKA 02"
+}, {
+	"id": "1274",
+	"name": "ODRZYKOŃSKA / BŁ. KAROLINY 02"
+}, {
+	"id": "1275",
+	"name": "BALIGRODZKA 01"
+}, {
+	"id": "1276",
+	"name": "SIKORSKIEGO 18"
+}, {
+	"id": "1277",
+	"name": "SIKORSKIEGO / KARD. K. WOJTYŁY 11"
+}, {
+	"id": "1278",
+	"name": "POGWIZDÓW NOWY WIEŚ VI 06"
+}, {
+	"id": "1279",
+	"name": "KAMYSZYN II 02"
+}, {
+	"id": "1280",
+	"name": "POGWIZDÓW NOWY WIEŚ IV 04"
+}, {
+	"id": "1281",
+	"name": "KAMYSZYN I 01"
+}, {
+	"id": "1282",
+	"name": "POGWIZDÓW NOWY WIEŚ II 02"
+}, {
+	"id": "1283",
+	"name": "POGWIZDÓW NOWY WIEŚ V 05"
+}, {
+	"id": "1284",
+	"name": "POGWIZDÓW NOWY WIEŚ I 01"
+}, {
+	"id": "1285",
+	"name": "POGWIZDÓW NOWY WIEŚ III 03"
+}, {
+	"id": "1286",
+	"name": "MYŚLIWSKA / ŚW. HUBERTA 01"
+}, {
+	"id": "1287",
+	"name": "WYSPIAŃSKIEGO / GERMAN 04"
+}, {
+	"id": "1288",
+	"name": "CHMURY 02"
+}, {
+	"id": "1289",
+	"name": "CHMURY 01"
+}, {
+	"id": "1290",
+	"name": "TRZEBOWNISKO WIEŚ 04"
+}, {
+	"id": "1291",
+	"name": "TRZEBOWNISKO PŁYWALNIA 52"
+}, {
+	"id": "1292",
+	"name": "TRZEBOWNISKO UG 02"
+}, {
+	"id": "1293",
+	"name": "TRZEBOWNISKO 02"
+}, {
+	"id": "1294",
+	"name": "TECHNOLOGICZNA RONDO 01"
+}, {
+	"id": "1295",
+	"name": "TRZEBOWNISKO SKRZYŻOWANIE 03"
+}, {
+	"id": "1296",
+	"name": "JASIONKA AEROKLUB 11"
+}, {
+	"id": "1297",
+	"name": "TRZEBOWNISKO 56"
+}, {
+	"id": "1298",
+	"name": "INWESTYCYJNA 02"
+}, {
+	"id": "1299",
+	"name": "JASIONKA AEROKLUB 02"
+}, {
+	"id": "1300",
+	"name": "TRZEBOWNISKO WIEŚ 03"
+}, {
+	"id": "1301",
+	"name": "TRZEBOWNISKO MLECZARNIA 31"
+}, {
+	"id": "1302",
+	"name": "TRZEBOWNISKO PŁYWALNIA 33"
+}, {
+	"id": "1303",
+	"name": "TRZEBOWNISKO UG 01"
+}, {
+	"id": "1304",
+	"name": "TRZEBOWNISKO MLECZARNIA 54"
+}, {
+	"id": "1305",
+	"name": "NOWA WIEŚ 35"
+}, {
+	"id": "1306",
+	"name": "TRZEBOWNISKO 29"
+}, {
+	"id": "1307",
+	"name": "INWESTYCYJNA 01"
+}, {
+	"id": "1308",
+	"name": "NOWA WIEŚ 50"
+}, {
+	"id": "1309",
+	"name": "TRZEBOWNISKO SKRZYŻOWANIE 04"
+}, {
+	"id": "1310",
+	"name": "LUBELSKA OGRODY HISZPAŃSKIE 11"
+}, {
+	"id": "1311",
+	"name": "BRATKOWICE SITKÓWKA II 07"
+}, {
+	"id": "1312",
+	"name": "BRATKOWICE SITKÓWKA II 08"
+}, {
+	"id": "1313",
+	"name": "SANOCKA / KROŚNIEŃSKA 01"
+}, {
+	"id": "1314",
+	"name": "SANOCKA / KROŚNIEŃSKA 02"
+}, {
+	"id": "1315",
+	"name": "BAŁTYCKA 01"
+}, {
+	"id": "1316",
+	"name": "BAŁTYCKA 02"
+}, {
+	"id": "1317",
+	"name": "MORGOWA 03"
+}, {
+	"id": "1318",
+	"name": "MORGOWA 01"
+}, {
+	"id": "1319",
+	"name": "MORGOWA / KASZUBSKA 02"
+}, {
+	"id": "1320",
+	"name": "MOGIELNICA GÓRA 03"
+}, {
+	"id": "1321",
+	"name": "BOGUCHWAŁA SKRZYŻOWANIE 93"
+}, {
+	"id": "1322",
+	"name": "MOGIELNICA II 17"
+}, {
+	"id": "1323",
+	"name": "MOGIELNICA PĘTLA 01"
+}, {
+	"id": "1324",
+	"name": "MOGIELNICA II 16"
+}, {
+	"id": "1325",
+	"name": "LUTORYŻ 89"
+}, {
+	"id": "1326",
+	"name": "BOGUCHWAŁA URZĄD GMINY 95"
+}, {
+	"id": "1327",
+	"name": "BOGUCHWAŁA SKRZYŻOWANIE 72"
+}, {
+	"id": "1328",
+	"name": "BOGUCHWAŁA WIADUKT 91"
+}, {
+	"id": "1329",
+	"name": "LUTORYŻ WIEŚ 06"
+}, {
+	"id": "1330",
+	"name": "LUTORYŻ KOŚCIÓŁ 10"
+}, {
+	"id": "1331",
+	"name": "MOGIELNICA GÓRA 02"
+}, {
+	"id": "1332",
+	"name": "MOGIELNICA WIEŚ 09"
+}, {
+	"id": "1333",
+	"name": "BOGUCHWAŁA POLNA 21"
+}, {
+	"id": "1334",
+	"name": "LUTORYŻ SZKOŁA 07"
+}, {
+	"id": "1335",
+	"name": "MOGIELNICA MOST 19"
+}, {
+	"id": "1336",
+	"name": "BOGUCHWAŁA POLNA 20"
+}, {
+	"id": "1337",
+	"name": "LUTORYŻ SZKOŁA 08"
+}, {
+	"id": "1338",
+	"name": "BOGUCHWAŁA WIADUKT 74"
+}, {
+	"id": "1339",
+	"name": "MOGIELNICA SZKOŁA 10"
+}, {
+	"id": "1340",
+	"name": "LUTORYŻ 76"
+}, {
+	"id": "1341",
+	"name": "LUTORYŻ KOŚCIÓŁ 09"
+}, {
+	"id": "1342",
+	"name": "LUTORYŻ WIEŚ 05"
+}, {
+	"id": "1343",
+	"name": "MOGIELNICA KOBAKÓWKA 06"
+}, {
+	"id": "1344",
+	"name": "LUTORYŻ PĘTLA 04"
+}, {
+	"id": "1345",
+	"name": "BOGUCHWAŁA URZĄD GMINY 70"
+}, {
+	"id": "1346",
+	"name": "MOGIELNICA SZKOŁA 11"
+}, {
+	"id": "1347",
+	"name": "MOGIELNICA REMIZA 13"
+}, {
+	"id": "1348",
+	"name": "MOGIELNICA WIEŚ 08"
+}, {
+	"id": "1349",
+	"name": "MOGIELNICA STARA PĘTLA 04"
+}, {
+	"id": "1350",
+	"name": "MOGIELNICA MOST 18"
+}, {
+	"id": "1351",
+	"name": "MOGIELNICA KOBAKÓWKA 07"
+}, {
+	"id": "1352",
+	"name": "MOGIELNICA STARA PĘTLA 05"
+}, {
+	"id": "1353",
+	"name": "MOGIELNICA I 14"
+}, {
+	"id": "1354",
+	"name": "MOGIELNICA I 15"
+}, {
+	"id": "1355",
+	"name": "MOGIELNICA REMIZA 12"
+}, {
+	"id": "1356",
+	"name": "ZARZECZE DOM KULTURY 04"
+}, {
+	"id": "1357",
+	"name": "LUTORYŻ BABIA GÓRA 89"
+}, {
+	"id": "1358",
+	"name": "ZARZECZE DOM KULTURY 03"
+}, {
+	"id": "1359",
+	"name": "WISŁOCZANKA 78"
+}, {
+	"id": "1360",
+	"name": "LUTORYŻ BABIA GÓRA 76"
+}, {
+	"id": "1361",
+	"name": "ZARZECZE 02"
+}, {
+	"id": "1362",
+	"name": "ZARZECZE MOST 06"
+}, {
+	"id": "1363",
+	"name": "WISŁOCZANKA 87"
+}, {
+	"id": "1364",
+	"name": "ZARZECZE 01"
+}, {
+	"id": "1365",
+	"name": "ŻOŁNIERZY 9 DYW. PIECHOTY / ŚWIĘTOKRZYSK"
+}, {
+	"id": "1366",
+	"name": "HERMANOWA SZKOŁA 42"
+}, {
+	"id": "1367",
+	"name": "HERMANOWA SZKOŁA 43"
+}, {
+	"id": "1368",
+	"name": "HERMANOWA DWOREK 40"
+}, {
+	"id": "1369",
+	"name": "HERMANOWA PĘTLA 48"
+}, {
+	"id": "1371",
+	"name": "HERMANOWA KAMIENIEC SKRZ. 49"
+}, {
+	"id": "1372",
+	"name": "HERMANOWA DÓŁ 39"
+}, {
+	"id": "1373",
+	"name": "HERMANOWA KOŚCIÓŁ 44"
+}, {
+	"id": "1374",
+	"name": "HERMANOWA CZERWONKI ŚRODEK 52"
+}, {
+	"id": "1375",
+	"name": "HERMANOWA DWOREK 41"
+}, {
+	"id": "1376",
+	"name": "HERMANOWA CZERWONKI PĘTLA 53"
+}, {
+	"id": "1377",
+	"name": "HERMANOWA SKRZYŻOWANIE 46"
+}, {
+	"id": "1378",
+	"name": "HERMANOWA KAMIENIEC SKRZ. 50"
+}, {
+	"id": "1379",
+	"name": "HERMANOWA CZERWONKI ŚRODEK 51"
+}, {
+	"id": "1380",
+	"name": "HERMANOWA DÓŁ 38"
+}, {
+	"id": "1381",
+	"name": "HERMANOWA SKRZYŻOWANIE 47"
+}, {
+	"id": "1382",
+	"name": "RYMANOWSKA 01"
+}, {
+	"id": "1383",
+	"name": "RYMANOWSKA 02"
+}, {
+	"id": "1384",
+	"name": "BIESZCZADZKA 02"
+}, {
+	"id": "1385",
+	"name": "BIESZCZADZKA 01"
+}, {
+	"id": "1386",
+	"name": "PODKARPACKA / ZWIĘCZYCKA 11"
+}, {
+	"id": "1387",
+	"name": "JASIONKA BORG 06"
+}, {
+	"id": "1388",
+	"name": "JASIONKA PRZEDSZKOLE OCHRONKA 04"
+}, {
+	"id": "1389",
+	"name": "JASIONKA PRZEDSZKOLE OCHRONKA 09"
+}, {
+	"id": "1390",
+	"name": "JASIONKA BORG 07"
+}, {
+	"id": "1391",
+	"name": "RACŁAWÓWKA ZABIERZÓW 23"
+}, {
+	"id": "1392",
+	"name": "RACŁAWÓWKA 02"
+}, {
+	"id": "1393",
+	"name": "RACŁAWÓWKA SZKOŁA SKRZYŻ. 09"
+}, {
+	"id": "1394",
+	"name": "RACŁAWÓWKA OSP 06"
+}, {
+	"id": "1395",
+	"name": "RACŁAWÓWKA OSP 05"
+}, {
+	"id": "1396",
+	"name": "RACŁAWÓWKA POCZTA 07"
+}, {
+	"id": "1397",
+	"name": "RACŁAWÓWKA 01"
+}, {
+	"id": "1398",
+	"name": "RACŁAWÓWKA 25"
+}, {
+	"id": "1399",
+	"name": "RACŁAWÓWKA SZKOŁA 30"
+}, {
+	"id": "1400",
+	"name": "RACŁAWÓWKA SPÓŁDZIELNIA 04"
+}, {
+	"id": "1401",
+	"name": "BESKIDZKA 08"
+}, {
+	"id": "1402",
+	"name": "RACŁAWÓWKA SPÓŁDZIELNIA 03"
+}, {
+	"id": "1403",
+	"name": "RACŁAWÓWKA POCZTA 08"
+}, {
+	"id": "1404",
+	"name": "RACŁAWÓWKA 26"
+}, {
+	"id": "1405",
+	"name": "RACŁAWÓWKA SZKOŁA 29"
+}, {
+	"id": "1406",
+	"name": "RACŁAWÓWKA ŁĄKI 28"
+}, {
+	"id": "1407",
+	"name": "RACŁAWÓWKA SZKOŁA SKRZYŻ. 10"
+}, {
+	"id": "1408",
+	"name": "RACŁAWÓWKA ŁĄKI 27"
+}, {
+	"id": "1409",
+	"name": "STORCZYKOWA 01"
+}, {
+	"id": "1410",
+	"name": "KROKUSOWA / RUMIANKOWA 04"
+}, {
+	"id": "1411",
+	"name": "ZIMOWIT / KAKTUSOWA 01"
+}, {
+	"id": "1412",
+	"name": "KROKUSOWA / MALWOWA 02"
+}, {
+	"id": "1413",
+	"name": "GOŹDZIKOWA 01"
+}, {
+	"id": "1414",
+	"name": "KROKUSOWA / PELARGONII 06"
+}, {
+	"id": "1415",
+	"name": "SASANKI 02"
+}, {
+	"id": "1416",
+	"name": "ZIMOWIT / BLAWATKOWA 03"
+}, {
+	"id": "1417",
+	"name": "WIENIAWSKIEGO 02"
+}, {
+	"id": "1418",
+	"name": "ODRZYKOŃSKA / IWONICKA 01"
+}, {
+	"id": "1419",
+	"name": "ŁAŃCUT ARMII KRAJOWEJ 80"
+}, {
+	"id": "1420",
+	"name": "ŁAŃCUT SIKORSKIEGO 33"
+}, {
+	"id": "1421",
+	"name": "ŁAŃCUT PODZWIERZYNIEC 35"
+}, {
+	"id": "1422",
+	"name": "ŁAŃCUT PODZWIERZYNIEC 44"
+}, {
+	"id": "1423",
+	"name": "ŁAŃCUT SIKORSKIEGO 46"
+}, {
+	"id": "1424",
+	"name": "ŁAŃCUT PISŁUDSKIEGO 59"
+}, {
+	"id": "1425",
+	"name": "ŁAŃCUT PODZWIERZYNIEC 37"
+}, {
+	"id": "1426",
+	"name": "ŁAŃCUT PIŁSUDSKIEGO 76"
+}, {
+	"id": "1427",
+	"name": "ŁAŃCUT PIŁSUDSKIEGO 57"
+}, {
+	"id": "1428",
+	"name": "ŁAŃCUT PIŁSUDSKIEGO 78"
+}, {
+	"id": "1429",
+	"name": "ŁAŃCUT KOŚCIUSZKI 02"
+}, {
+	"id": "1430",
+	"name": "ŁAŃCUT ARMII KRAJOWEJ 55"
+}, {
+	"id": "1431",
+	"name": "ŁAŃCUT KOŚCIUSZKI 01"
+}, {
+	"id": "1432",
+	"name": "ŁAŃCUT PODZWIERZYNIEC 42"
+}, {
+	"id": "1433",
+	"name": "ŁAŃCUT ARMII KRAJOWEJ 82"
+}, {
+	"id": "1434",
+	"name": "ŁAŃCUT KOŚCIUSZKI 17A CENTRUM KOMUNIKACJ"
+}, {
+	"id": "1435",
+	"name": "ŁAŃCUT ARMII KRAJOWEJ 53"
+}, {
+	"id": "1436",
+	"name": "ŁAŃCUT CETNARSKIEGO 01"
+}, {
+	"id": "1437",
+	"name": "KROGULSKIEGO 03"
+}, {
+	"id": "1438",
+	"name": "KROGULSKIEGO / GROMSKIEGO 01"
+}, {
+	"id": "1439",
+	"name": "KROGULSKIEGO 04"
+}, {
+	"id": "1440",
+	"name": "KROGULSKIEGO / GROMSKIEGO 02"
+}, {
+	"id": "1441",
+	"name": "ZACZERNIE CMENTARZ 22"
+}, {
+	"id": "1442",
+	"name": "ŁĄKA CARITAS PĘTLA 12"
+}, {
+	"id": "1443",
+	"name": "TERLICZKA SPINY 08"
+}, {
+	"id": "1444",
+	"name": "JASIONKA 14"
+}, {
+	"id": "1445",
+	"name": "ŁĄKA 14"
+}, {
+	"id": "1446",
+	"name": "ŁĄKA SZKOŁA 11"
+}, {
+	"id": "1447",
+	"name": "ŁĄKA WIEŚ 04"
+}, {
+	"id": "1448",
+	"name": "STOBIERNA DOLNA SZKOŁA 22"
+}, {
+	"id": "1449",
+	"name": "JASIONKA GROND 13"
+}, {
+	"id": "1450",
+	"name": "TRZEBOWNISKO HARTBEX 02"
+}, {
+	"id": "1451",
+	"name": "TERLICZKA PĘTLA 01"
+}, {
+	"id": "1452",
+	"name": "JASIONKA 15"
+}, {
+	"id": "1453",
+	"name": "STOBIERNA KRZYWE 01"
+}, {
+	"id": "1454",
+	"name": "STOBIERNA I 18"
+}, {
+	"id": "1455",
+	"name": "TRZEBOWNISKO KRZYWY WAŁ 01"
+}, {
+	"id": "1456",
+	"name": "TRZEBOWNISKO KRZYWY WAŁ 02"
+}, {
+	"id": "1457",
+	"name": "ŁĄKA GRANICA 12"
+}, {
+	"id": "1458",
+	"name": "ŁĄKA 13"
+}, {
+	"id": "1459",
+	"name": "TERLICZKA SPINY 07"
+}, {
+	"id": "1460",
+	"name": "STOBIERNA OŚRODEK ZDROWIA 24"
+}, {
+	"id": "1461",
+	"name": "ŁĄKA DOM STRAŻAKA 08"
+}, {
+	"id": "1462",
+	"name": "ŁĄKA SKRZYŻOWANIE 05"
+}, {
+	"id": "1463",
+	"name": "ŁĄKA GRANICA 11"
+}, {
+	"id": "1464",
+	"name": "ŁĄKA KOŚCIÓŁ 02"
+}, {
+	"id": "1465",
+	"name": "ŁĄKA WIEŚ 03"
+}, {
+	"id": "1466",
+	"name": "ŁĄKA TRAFO 07"
+}, {
+	"id": "1467",
+	"name": "ŁĄKA DOM STRAŻAKA 09"
+}, {
+	"id": "1468",
+	"name": "TRZEBOWNISKO SZKOŁA 06"
+}, {
+	"id": "1469",
+	"name": "STOBIERNA DOLNA 20"
+}, {
+	"id": "1470",
+	"name": "STOBIERNA 03"
+}, {
+	"id": "1471",
+	"name": "TRZEBOWNISKO SZKOŁA 05"
+}, {
+	"id": "1472",
+	"name": "TRZEBOWNISKO ZA MOSTEM 08"
+}, {
+	"id": "1473",
+	"name": "TRZEBOWNISKO GRANICA Z ŁĄKĄ 10"
+}, {
+	"id": "1474",
+	"name": "STOBIERNA OŚRODEK ZDROWIA 05"
+}, {
+	"id": "1475",
+	"name": "ŁĄKA TRAFO 06"
+}, {
+	"id": "1476",
+	"name": "ŁĄKA SKRZYŻOWANIE 16"
+}, {
+	"id": "1477",
+	"name": "TRZEBOWNISKO GRANICA Z ŁĄKĄ 09"
+}, {
+	"id": "1478",
+	"name": "TRZEBOWNISKO ZA MOSTEM 07"
+}, {
+	"id": "1479",
+	"name": "TERLICZKA PĘTLA 02"
+}, {
+	"id": "1480",
+	"name": "STOBIERNA KRZYWE PĘTLA 01"
+}, {
+	"id": "1481",
+	"name": "STOBIERNA I 11"
+}, {
+	"id": "1482",
+	"name": "ŁĄKA KOŚCIÓŁ 01"
+}, {
+	"id": "1483",
+	"name": "STOBIERNA 26"
+}, {
+	"id": "1484",
+	"name": "TRZEBOWNISKO HARTBEX 01"
+}, {
+	"id": "1485",
+	"name": "TERLICZKA SZKOŁA 01"
+}, {
+	"id": "1486",
+	"name": "STOBIERNA DOLNA SZKOŁA 07"
+}, {
+	"id": "1487",
+	"name": "JASIONKA GROND 16"
+}, {
+	"id": "1488",
+	"name": "STOBIERNA DOLNA 09"
+}, {
+	"id": "1489",
+	"name": "ŁĄKA SZKOŁA 10"
+}, {
+	"id": "1490",
+	"name": "ODRZYKOŃSKA / BALIGRODZKA 04"
+}, {
+	"id": "1491",
+	"name": "BOROWA 01"
+}, {
+	"id": "1492",
+	"name": "BOROWA 02"
+}, {
+	"id": "1493",
+	"name": "BOROWA / ŻYWICZNA 04"
+}, {
+	"id": "1494",
+	"name": "BRATKOWICE LAS 02"
+}, {
+	"id": "1495",
+	"name": "BRATKOWICE LAS 01"
+}, {
+	"id": "1496",
+	"name": "KAMYSZYN PĘTLA 03"
+}, {
+	"id": "1498",
+	"name": "ZARZECZE MOST 05"
+}, {
+	"id": "1499",
+	"name": "ZACZERNIE 07"
+}, {
+	"id": "1500",
+	"name": "WIENIAWSKIEGO / SŁONECZNIKOWA 12"
+}, {
+	"id": "1501",
+	"name": "WIENIAWSKIEGO / NIEMASZKÓW 03"
+}, {
+	"id": "1502",
+	"name": "WIENIAWSKIEGO DZIAŁKI 08"
+}, {
+	"id": "1503",
+	"name": "WIENIAWSKIEGO / DUNIKOWSKIEGO 09"
+}, {
+	"id": "1504",
+	"name": "WIENIAWSKIEGO / SŁONECZNIKOWA 11"
+}, {
+	"id": "1505",
+	"name": "WIENIAWSKIEGO / KARPA 05"
+}, {
+	"id": "1506",
+	"name": "WIENIAWSKIEGO / SULIKOWSKIEGO 01"
+}, {
+	"id": "1507",
+	"name": "WIENIAWSKIEGO / SULIKOWSKIEGO 02"
+}, {
+	"id": "1508",
+	"name": "WIENIAWSKIEGO DZIAŁKI 07"
+}, {
+	"id": "1509",
+	"name": "WIENIAWSKIEGO / NIEMASZKÓW 04"
+}, {
+	"id": "1510",
+	"name": "WIENIAWSKIEGO / DUNIKOWSKIEGO 10"
+}, {
+	"id": "1511",
+	"name": "WIENIAWSKIEGO / KARPA 06"
+}, {
+	"id": "1512",
+	"name": "HERMANOWA SKRZYŻOWANIE 47A"
+}, {
+	"id": "289",
+	"name": "STĄCZKA / POTOCKIEGO 03"
+}, {
+	"id": "1370",
+	"name": "HERMANOWA KOŚCIÓŁ 45"
+}, {
+	"id": "1497",
+	"name": "MROWLA OTOKA PĘTLA 01"
+}]

@@ -36,7 +36,27 @@ header {
     max-width: 60%;
 }
 #adder input {
-    width: 100px;
+    width: 90%;
+    border: 0px;
+    height: 40px;
+}
+#adder ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    max-height: 300px;
+    max-width: 90%;
+    overflow-y: scroll;
+    /* border: 1px solid; */
+    border-radius: 5px;
+}
+#adder li {
+    padding: 5px;
+}
+#adder li:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.04);
 }
 footer {
     font-size: 10pt;

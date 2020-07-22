@@ -10,16 +10,16 @@
     <link href="css/normalize.css" rel="stylesheet" />
 </head>
 
-<body>
+<body onload="fetchAllStops()">
     <header>Tablice przystankowe MPK Rzeszów</header>
     <div id="adder">
-        <input id="newStopID" placeholder="id przystanku" type="text">
-        <button id="addNewStop">dodaj</button>
+        <input id="newStopID" placeholder="szukaj przystanku..." type="text">
+        <ul id="search">
+        </ul>
     </div>
     <div id="wrapper">
         <p id="zeroStops">
-            Dodaj jakiś przystanek, np. 109<br>
-            Identyfikatory przystanków znajdziesz <a href="http://einfo.erzeszow.pl/">tutaj</a>.
+            Wyszukaj i dodaj jakiś przystanek :)<br>
         </p>
     </div>
     <footer>
