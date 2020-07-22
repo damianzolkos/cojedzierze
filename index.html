@@ -1,18 +1,27 @@
 <html>
+
 <head>
-    <title>MPK Rzeszów</title>
+    <title>cojedzie - Rzeszów</title>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/appIcon.svg" />
+    <link rel="icon" type="image/png" sizes="64x64" href="img/appIcon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/appIcon.svg">
+    <meta name="mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700&amp;subset=latin-ext"
         rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
-    <script defer src="js/script.js?v=3" type="text/javascript"></script>
-    <link href="css/style.css?v=3" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;400;600&display=swap" rel="stylesheet">
+    <script defer src="js/script.js?v=4" type="text/javascript"></script>
+    <link href="css/style.css?v=4" rel="stylesheet" />
     <link href="css/normalize.css" rel="stylesheet" />
 </head>
 
 <body onload="fetchAllStops()">
-    <header>Tablice przystankowe MPK Rzeszów</header>
+    <header>
+        <!-- <img src="img/appIcon.svg"> -->
+        <p class="title">cojedzie</p>
+        <p class="description">rzeszów</p>
+    </header>
     <div id="adder">
         <input id="newStopID" placeholder="szukaj przystanku..." type="text">
         <ul id="search"></ul>
@@ -24,10 +33,14 @@
         </p>
     </div>
     <footer>
-        <a href="http://damianzolkos.github.io">&copy; mesopodamian</a>
+        <a class="mesopodamian" href="http://damianzolkos.github.io">&copy; mesopodamian</a>
         <a href="https://github.com/damianzolkos/tablicempk">github</a>
         <a href="http://einfo.erzeszow.pl/">einfo</a>
+        <br><br>
+        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
     </footer>
 </body>
 <!-- https://github.com/PiotrMachowski/Home-Assistant-custom-components-MPK-Rzeszow -->
+
 </html>

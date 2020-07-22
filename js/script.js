@@ -135,20 +135,31 @@ function printData(parsedData) {
     let newContent = document.createElement("div");
     newContent.id = "content_" + parsedData.id;
     newContent.className = "content";
+
+    let busStopTitle = document.createElement("div");
+    busStopTitle.className = 'busStopTitle';
+
     let newBusStopName = document.createElement("p");
     newBusStopName.id = "busStopName_" + parsedData.id;
-    newBusStopName.className = "busStopName border";
+    newBusStopName.className = "busStopName";
+
+    let deleteButton = document.createElement("p");
+    deleteButton.className = "deleteStop";
+    deleteButton.innerHTML = "✖";
+    deleteButton.setAttribute('onclick','removeStop(' + parsedData.id + ')');
+
     let newBusLines = document.createElement("div");
     newBusLines.id = "busLines_" + parsedData.id;
     newBusLines.className = "container";
 
-    newContent.appendChild(newBusStopName);
+    busStopTitle.appendChild(newBusStopName);
+    busStopTitle.appendChild(deleteButton);
+    newContent.appendChild(busStopTitle);
     newContent.appendChild(newBusLines);
     wrapper.appendChild(newContent);
 
     let txt = "";
-    document.getElementById("busStopName_" + parsedData.id).innerHTML = parsedData.name +
-        "<span class='deleteStop'><button class='remove' onClick='removeStop(" + parsedData.id + ")'>X</button></span>";
+    document.getElementById("busStopName_" + parsedData.id).innerHTML = parsedData.name;
     if (parsedData.lines.length > 0) {
         parsedData.lines.forEach(element => {
             let nr = element.nr;
