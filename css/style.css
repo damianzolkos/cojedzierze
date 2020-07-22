@@ -51,6 +51,7 @@ header {
     height: 40px;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 5px;
+    padding-left: 5px;
 }
 #adder ul {
     list-style-type: none;
