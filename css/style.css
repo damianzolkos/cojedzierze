@@ -53,10 +53,9 @@ header {
 }
 #adder li {
     padding: 5px;
-}
-#adder li {
     line-height: 30px;
     min-height: 30px;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.25);
 }
 #adder li:hover {
     cursor: pointer;
