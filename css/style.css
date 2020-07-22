@@ -139,4 +139,10 @@ footer a:link, a:visited {
         max-width: 90%;
         font-size: 20pt;
     }
+    #adder {
+        min-width: 90%;
+    }
+    #adder ul {
+        min-width: 90%;
+    }
 }
