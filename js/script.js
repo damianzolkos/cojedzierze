@@ -2,6 +2,38 @@ const proxyUrl = "https://infinite-springs-66524.herokuapp.com/";
 // const proxyUrl = "";
 const mpkUrl = "http://einfo.erzeszow.pl/Home/GetTimeTableReal?busStopId=";
 
+
+var latin_map = {
+    'ą': 'a',
+    'ę': 'e',
+    'ł': 'l',
+    'ć': 'x',
+    'ź': 'x',
+    'ż': 'x',
+    'ń': 'n',
+    'ó': 'o',
+    'ś': 's',
+    'Ą': 'A',
+    'Ę': 'E',
+    'Ł': 'L',
+    'Ć': 'Ć',
+    'Ź': 'Z',
+    'Ż': 'Z',
+    'Ó': 'O',
+    'Ś': 'S',
+    'Ń': 'N'
+};
+
+String.prototype.latinise = function () {
+    return this.replace(/[^A-Za-z0-9]/g, function (x) {
+        return latin_map[x] || x;
+    })
+};
+
+String.prototype.isLatin = function () {
+    return this == this.latinise();
+};
+
 async function getBusStopXML(busStopId) {
     let url = proxyUrl + mpkUrl + busStopId;
     const data = await fetch(url, {
@@ -41,24 +73,24 @@ async function getData(url) {
     return data;
 }
 
-var savedStops = [];
+var loader = document.getElementById("loader");
+
+var savedStops = new Array;
 var loadedStops = localStorage.getItem('stops');
-// console.log("loadedStops:", loadedStops);
 if (localStorage.getItem('stops') === null) {
-    savedStops = [];
+    savedStops = new Array;
 } else {
     savedStops = JSON.parse(loadedStops);
 }
-// console.log("savedStops:", savedStops);
 
 if (savedStops != 0) {
     document.getElementById("zeroStops").style.display = "none";
     savedStops.forEach(element => {
-        // console.log(element);
+        loader.style.display = 'block';
         let newStop = parseData(element);
         newStop.then(function (result) {
-            // console.log("result:", result);
             printData(result);
+            loader.style.display = 'none';
         });
     });
 } else {
@@ -138,27 +170,27 @@ function printData(parsedData) {
 }
 
 // EVENT LISTENERS
-window.addEventListener('scroll', function () {
-    document.getElementById('search').style.display = 'none';
-    // document.getElementById("newStopID").value = "";
-});
-
 document.getElementById("newStopID").addEventListener("focusout", function () {
-    // document.getElementById('search').style.display = "none";
-    // document.getElementById("newStopID").value = "";
+    let name = document.getElementById("newStopID").value;
+    if (name == "") {
+        document.getElementById('search').style.display = "none";
+    }
 });
 
-document.getElementById("newStopID").addEventListener("mouseover", function () {
-    // document.getElementById('search').innerHTML = "";
-    document.getElementById('search').style.display = 'block';
-    // document.getElementById("newStopID").value = "";
+document.getElementById("newStopID").addEventListener("focusin", function () {
+    let html = document.getElementById("search").innerHTML;
+    if (html != "") {
+        document.getElementById('search').style.display = 'block';
+    }
 });
 
 document.getElementById("newStopID").addEventListener("keyup", function () {
     let name = document.getElementById("newStopID").value;
     if (name != "") {
         searchStop(name);
+        document.getElementById('search').style.display = 'block';
     } else {
+        document.getElementById('search').style.display = 'none';
         document.getElementById('search').innerHTML = "";
     }
 });
@@ -167,20 +199,21 @@ function addStop(id) {
     if (id !== "") {
         if (Number.isInteger(id)) {
             if (!savedStops.includes(id)) {
+                loader.style.display = 'block';
                 let busstop = parseData(id);
                 busstop.then(function (result) {
-                    // console.log(result);
                     printData(result);
+                    let newElement = document.getElementById("busStopName_" + id);
+                    newElement.scrollIntoView();
+                    loader.style.display = 'none';
                 });
-                // console.log("savedStops:", savedStops);
-                // console.log(id);
                 savedStops.push(id);
                 localStorage.setItem('stops', JSON.stringify(savedStops));
 
                 document.getElementById("zeroStops").style.display = "none";
                 document.getElementById("newStopID").value = "";
+                document.getElementById('search').style.display = "none";
                 document.getElementById('search').innerHTML = "";
-                
             } else alert("Ten przystanek już istnieje");
         } else alert("Podaj liczbę");
     } else {
@@ -209,6 +242,9 @@ function searchStop(search) {
     // console.log(allStops);
     let found = filterIt(allStops, search);
     // console.log(found);
+    // console.log(search);
+    let newSearch = String(search);
+    // console.log(newSearch.latinise());
     let txt = ``;
     found.forEach(element => {
         txt += `<li onclick='addStop(` + element.id + `)'>` + element.name + `</li>`;
@@ -218,8 +254,12 @@ function searchStop(search) {
 
 function filterIt(arr, searchKey) {
     return arr.filter(function (obj) {
+        // console.log(Object.keys(obj));
         return Object.keys(obj).some(function (key) {
-            return obj[key].includes(searchKey.toUpperCase());
+            let upperSearch = searchKey.toUpperCase();
+            let stringSearch = String(upperSearch);
+            let latinSearch = stringSearch.latinise();
+            return obj[key].includes(latinSearch);
         })
     });
 }
@@ -246,17 +286,18 @@ function filterIt(arr, searchKey) {
 
 // function getAllStops() {
 //     console.log("getAllStops");
-//     for (let index = 0; index < 2000; index++) {
+//     for (let index = 0; index < 1600; index++) {
 //         let newStop = new Object;
-//         console.log(index);
 //         let busstop = parseData(index);
 //         sleep(10);
 //         busstop.then(function (result) {
 //             if (result.name != undefined) {
-//                 console.log(result.name);
 //                 console.log(result.id);
 //                 newStop.id = result.id;
 //                 newStop.name = result.name.toUpperCase();
+//                 newStop.nameD = result.name.toUpperCase().latinise();
+//                 console.log(newStop.nameD);
+//                 console.log(newStop.name);
 //                 allStops.push(newStop)
 //             }
 //         });
