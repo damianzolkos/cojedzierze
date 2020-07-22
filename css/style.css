@@ -129,9 +129,7 @@ footer a:link, a:visited {
     text-align: left;
     padding: 10px;
     margin: 0px 0px 15px 0px;
-    overflow-y: hidden;
-    max-width: calc(100% - 40px);
-    max-height: 20pt;
+    max-width: 100%;
 }
 .deleteStop {
     clear: both;
