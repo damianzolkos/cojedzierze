@@ -139,7 +139,7 @@ footer a:link, a:visited {
     padding: 0px 10px;
     line-height: 30px;
     max-height: 22pt;
-    border: 1px solid rgba(153, 153, 153, 0.2);
+    border: 1px solid rgba(153, 153, 153, 0);
     border-radius: 5px;
     color: rgb(230, 77, 77);
 }
