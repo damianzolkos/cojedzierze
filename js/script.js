@@ -155,10 +155,15 @@ function printData(parsedData) {
             let dir = element.dir;
             let t = element.time;
             let veh = element.veh;
-
+            let icon;
+            if (veh === 'T') {
+                icon = `<img title='Biletomat w autobusie' src='./biletomat.png'>`
+            } else if (veh === 'N') {
+                icon = `<img src='./brakbiletomatu.png'>`
+            }
             txt += "<span class='busNr border'>" + nr + "</span>" +
                 "<span class='busDir border'>" + dir + "</span>" +
-                "<span class='busVeh border'>" + veh + "</span>" +
+                "<span class='busVeh border'>" + icon + "</span>" +
                 "<span class='busTime border'>" + t + "</span>";
         });
     } else {
