@@ -42,7 +42,7 @@ async function getBusStopXML(busStopId) {
             function (response) {
                 if (response.status !== 200) {
                     console.log('There was a problem. Status Code: ' + response.status);
-                    return response.status;
+                    return 0;
                 }
                 return response.text();
             }
@@ -60,7 +60,7 @@ async function getData(url) {
                 if (response.status !== 200) {
                     console.log('There was a problem. Status Code: ' +
                         response.status);
-                    return response.status;
+                    return 0;
                 }
                 return response.json();
             }
@@ -71,28 +71,9 @@ async function getData(url) {
     return data;
 }
 
-var loader = document.getElementById("loader");
-
-var savedStops = new Array;
-var loadedStops = localStorage.getItem('stops');
-if (localStorage.getItem('stops') === null) {
-    savedStops = new Array;
-} else {
-    savedStops = JSON.parse(loadedStops);
-}
-
-if (savedStops != 0) {
-    document.getElementById("zeroStops").style.display = "none";
-    savedStops.forEach(element => {
-        loader.style.display = 'block';
-        let newStop = parseData(element);
-        newStop.then(function (result) {
-            printData(result);
-            loader.style.display = 'none';
-        });
-    });
-} else {
-    document.getElementById("zeroStops").style.display = "block";
+var allStops = new Array;
+async function fetchAllStops() {
+    allStops = await getData('./allStopsArr.json')
 }
 
 async function parseData(busStopId) {
@@ -133,54 +114,91 @@ async function parseData(busStopId) {
 function printData(parsedData) {
     let wrapper = document.getElementById("wrapper");
     let newContent = document.createElement("div");
-    newContent.id = "content_" + parsedData.id;
-    newContent.className = "content";
 
-    let busStopTitle = document.createElement("div");
-    busStopTitle.className = 'busStopTitle';
+    if (parsedData.name != undefined) {
+        newContent.id = "content_" + parsedData.id;
+        newContent.className = "content";
 
-    let newBusStopName = document.createElement("p");
-    newBusStopName.id = "busStopName_" + parsedData.id;
-    newBusStopName.className = "busStopName";
+        let busStopTitle = document.createElement("div");
+        busStopTitle.className = 'busStopTitle';
 
-    let deleteButton = document.createElement("p");
-    deleteButton.className = "deleteStop";
-    deleteButton.innerHTML = "✖";
-    deleteButton.setAttribute('onclick','removeStop(' + parsedData.id + ')');
+        let newBusStopName = document.createElement("p");
+        newBusStopName.id = "busStopName_" + parsedData.id;
+        newBusStopName.className = "busStopName";
 
-    let newBusLines = document.createElement("div");
-    newBusLines.id = "busLines_" + parsedData.id;
-    newBusLines.className = "container";
+        let deleteButton = document.createElement("p");
+        deleteButton.className = "deleteStop";
+        deleteButton.innerHTML = "✖";
+        deleteButton.setAttribute('onclick', 'removeStop(' + parsedData.id + ')');
 
-    busStopTitle.appendChild(newBusStopName);
-    busStopTitle.appendChild(deleteButton);
-    newContent.appendChild(busStopTitle);
-    newContent.appendChild(newBusLines);
-    wrapper.appendChild(newContent);
+        let newBusLines = document.createElement("div");
+        newBusLines.id = "busLines_" + parsedData.id;
+        newBusLines.className = "container";
 
-    let txt = "";
-    document.getElementById("busStopName_" + parsedData.id).innerHTML = parsedData.name;
-    if (parsedData.lines.length > 0) {
-        parsedData.lines.forEach(element => {
-            let nr = element.nr;
-            let dir = element.dir;
-            let t = element.time;
-            let veh = element.veh;
-            let icon;
-            if (veh === 'T') {
-                icon = `<img title='Biletomat w autobusie' src='./biletomat.png'>`
-            } else if (veh === 'N') {
-                icon = `<img src='./brakbiletomatu.png'>`
-            }
-            txt += "<span class='busNr border'>" + nr + "</span>" +
-                "<span class='busDir border'>" + dir + "</span>" +
-                "<span class='busVeh border'>" + icon + "</span>" +
-                "<span class='busTime border'>" + t + "</span>";
-        });
+        busStopTitle.appendChild(newBusStopName);
+        busStopTitle.appendChild(deleteButton);
+        newContent.appendChild(busStopTitle);
+        newContent.appendChild(newBusLines);
+        wrapper.appendChild(newContent);
+
+        let txt = "";
+        console.log(parsedData);
+        // if (parsedData.name != undefined) {
+        document.getElementById("busStopName_" + parsedData.id).innerHTML = parsedData.name;
+        // } else {
+        // document.getElementById("busStopName_err" + Math.random()*10000).innerHTML = "błąd wczytywania, odśwież stronę";
+        // }
+        if (parsedData.lines.length > 0) {
+            parsedData.lines.forEach(element => {
+                let nr = element.nr;
+                let dir = element.dir;
+                let t = element.time;
+                let veh = element.veh;
+                let icon;
+                if (veh === 'T') {
+                    icon = `<img title='Biletomat w autobusie' src='./biletomat.png'>`
+                } else if (veh === 'N') {
+                    icon = `<img src='./brakbiletomatu.png'>`
+                }
+                txt += "<span class='busNr border'>" + nr + "</span>" +
+                    "<span class='busDir border'>" + dir + "</span>" +
+                    "<span class='busVeh border'>" + icon + "</span>" +
+                    "<span class='busTime border'>" + t + "</span>";
+            });
+        } else {
+            txt = "brak autobusów :("
+        }
+        document.getElementById("busLines_" + parsedData.id).innerHTML = txt;
     } else {
-        txt = "brak autobusów :("
+        newContent.innerHTML = "<br><br><p style='text-align: center; padding: 100px auto; width: '>błąd pobierania danych<br><br>sprawdź połączenie z Internetem i spróbuj ponownie :)</p><br><br>";
+        wrapper.appendChild(newContent);
+        newContent.scrollIntoView();
+        loader.style.display = 'none';
     }
-    document.getElementById("busLines_" + parsedData.id).innerHTML = txt;
+}
+
+var loader = document.getElementById("loader");
+
+var savedStops = new Array;
+var loadedStops = localStorage.getItem('stops');
+if (localStorage.getItem('stops') === null) {
+    savedStops = new Array;
+} else {
+    savedStops = JSON.parse(loadedStops);
+}
+
+if (savedStops != 0) {
+    document.getElementById("zeroStops").style.display = "none";
+    savedStops.forEach(element => {
+        loader.style.display = 'block';
+        let newStop = parseData(element);
+        newStop.then(function (result) {
+            printData(result);
+            loader.style.display = 'none';
+        });
+    });
+} else {
+    document.getElementById("zeroStops").style.display = "block";
 }
 
 // EVENT LISTENERS
@@ -243,11 +261,6 @@ function removeStop(id) {
     if (savedStops == 0) {
         document.getElementById("zeroStops").style.display = "block";
     }
-}
-
-var allStops = new Array;
-async function fetchAllStops() {
-    allStops = await getData('./allStopsArr.json')
 }
 
 function searchStop(search) {
