@@ -180,8 +180,8 @@ function printData(parsedData) {
 var loader = document.getElementById("loader");
 
 var savedStops = new Array;
-var loadedStops = localStorage.getItem('stops');
-if (localStorage.getItem('stops') === null) {
+var loadedStops = localStorage.getItem('stopsCoJedzieRze');
+if (localStorage.getItem('stopsCoJedzieRze') === null) {
     savedStops = new Array;
 } else {
     savedStops = JSON.parse(loadedStops);
@@ -240,7 +240,7 @@ function addStop(id) {
                     loader.style.display = 'none';
                 });
                 savedStops.push(id);
-                localStorage.setItem('stops', JSON.stringify(savedStops));
+                localStorage.setItem('stopsCoJedzieRze', JSON.stringify(savedStops));
 
                 document.getElementById("zeroStops").style.display = "none";
                 document.getElementById("newStopID").value = "";
@@ -257,7 +257,7 @@ function removeStop(id) {
     document.getElementById("content_" + id).remove();
     var index = savedStops.indexOf(id);
     savedStops.splice(index, 1);
-    localStorage.setItem('stops', JSON.stringify(savedStops));
+    localStorage.setItem('stopsCoJedzieRze', JSON.stringify(savedStops));
     if (savedStops == 0) {
         document.getElementById("zeroStops").style.display = "block";
     }
@@ -284,45 +284,49 @@ function filterIt(arr, searchKey) {
     });
 }
 
-// function sleep(milliseconds) {
-//     const date = Date.now();
-//     let currentDate = null;
-//     do {
-//         currentDate = Date.now();
-//     } while (currentDate - date < milliseconds);
-// }
 
-// const convertArrayToObject = (array, key) => {
-//     const initialValue = {};
-//     return array.reduce((obj, item) => {
-//         return {
-//             ...obj,
-//             [item[key]]: item,
-//         };
-//     }, initialValue);
-// };
 
-// var allStops = new Array;
 
-// function getAllStops() {
-//     console.log("getAllStops");
-//     for (let index = 0; index < 1600; index++) {
-//         let newStop = new Object;
-//         let busstop = parseData(index);
-//         sleep(10);
-//         busstop.then(function (result) {
-//             if (result.name != undefined) {
-//                 console.log(result.id);
-//                 newStop.id = result.id;
-//                 newStop.name = result.name.toUpperCase();
-//                 newStop.nameD = result.name.toUpperCase().latinise();
-//                 console.log(newStop.nameD);
-//                 console.log(newStop.name);
-//                 allStops.push(newStop)
-//             }
-//         });
-//     }
-//     var allStopsObject = convertArrayToObject(allStops, 'id');
-//     console.log("allStops:", allStops);
-//     console.log("allStopsObject:", allStopsObject);
-// }
+
+function sleep(milliseconds) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+        currentDate = Date.now();
+    } while (currentDate - date < milliseconds);
+}
+
+const convertArrayToObject = (array, key) => {
+    const initialValue = {};
+    return array.reduce((obj, item) => {
+        return {
+            ...obj,
+            [item[key]]: item,
+        };
+    }, initialValue);
+};
+
+var allStops = new Array;
+
+function getAllStops() {
+    console.log("getAllStops");
+    for (let index = 0; index < 1600; index++) {
+        let newStop = new Object;
+        let busstop = parseData(index);
+        sleep(10);
+        busstop.then(function (result) {
+            if (result.name != undefined) {
+                console.log(result.id);
+                newStop.id = result.id;
+                newStop.name = result.name.toUpperCase();
+                newStop.nameD = result.name.toUpperCase().latinise();
+                console.log(newStop.nameD);
+                console.log(newStop.name);
+                allStops.push(newStop)
+            }
+        });
+    }
+    var allStopsObject = convertArrayToObject(allStops, 'id');
+    console.log("allStops:", allStops);
+    console.log("allStopsObject:", allStopsObject);
+}
