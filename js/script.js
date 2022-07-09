@@ -5,9 +5,9 @@ var latin_map = {
     'ą': 'a',
     'ę': 'e',
     'ł': 'l',
-    'ć': 'x',
-    'ź': 'x',
-    'ż': 'x',
+    'ć': 'c',
+    'ź': 'z',
+    'ż': 'z',
     'ń': 'n',
     'ó': 'o',
     'ś': 's',
@@ -143,11 +143,7 @@ function printData(parsedData) {
 
         let txt = "";
         console.log(parsedData);
-        // if (parsedData.name != undefined) {
         document.getElementById("busStopName_" + parsedData.id).innerHTML = parsedData.name;
-        // } else {
-        // document.getElementById("busStopName_err" + Math.random()*10000).innerHTML = "błąd wczytywania, odśwież stronę";
-        // }
         if (parsedData.lines.length > 0) {
             parsedData.lines.forEach(element => {
                 let nr = element.nr;
@@ -170,7 +166,12 @@ function printData(parsedData) {
         }
         document.getElementById("busLines_" + parsedData.id).innerHTML = txt;
     } else {
-        newContent.innerHTML = "<br><br><p style='text-align: center; padding: 100px auto; width: '>błąd pobierania danych<br><br>sprawdź połączenie z Internetem i spróbuj ponownie :)</p><br><br>";
+        newContent.innerHTML = `
+        <br><br>
+        <p style='text-align: center; padding: 100px auto; width: '>
+            błąd pobierania danych<br><br>sprawdź połączenie z Internetem i spróbuj ponownie :)
+        </p>
+        <br><br>`;
         wrapper.appendChild(newContent);
         newContent.scrollIntoView();
         loader.style.display = 'none';
@@ -284,10 +285,6 @@ function filterIt(arr, searchKey) {
     });
 }
 
-
-
-
-
 function sleep(milliseconds) {
     const date = Date.now();
     let currentDate = null;
@@ -307,7 +304,6 @@ const convertArrayToObject = (array, key) => {
 };
 
 var allStops = new Array;
-
 function getAllStops() {
     console.log("getAllStops");
     for (let index = 0; index < 1600; index++) {
